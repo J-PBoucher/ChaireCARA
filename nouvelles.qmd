@@ -1,0 +1,42 @@
+---
+page-layout: full
+toc: false
+
+listing:
+  - id: nouvelles-listing
+    contents:
+      - news
+    type: default
+    image-align: right
+    image-height: 1.05in
+    sort:
+      - "date desc"
+    fields: [image, date, title]
+    filter-ui: false
+    sort-ui: false
+---
+
+::: {.cara-page .cara-news-page}
+
+::: {.cara-team-hero .cara-news-hero}
+
+::: {.cara-kicker}
+Actualités de la Chaire
+:::
+
+# Nouvelles et événements
+
+:::
+
+
+::: {.cara-section}
+
+::: {.cara-section-header}
+:::
+
+::: {#nouvelles-listing .cara-news-listing}
+:::
+
+:::
+
+:::

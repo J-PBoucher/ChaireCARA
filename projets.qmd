@@ -1,0 +1,81 @@
+---
+title: ""
+pagetitle: "Projets de recherche | Chaire CARA"
+page-layout: full
+toc: false
+---
+
+
+```{r echo = FALSE, results = "asis", message = FALSE, warning = FALSE}
+library(dplyr)
+library(lubridate)
+library(stringr)
+
+load("rda_files/Publis.Rda")
+```
+
+
+::: {.cara-projects-page}
+
+::: {.cara-page-hero}
+
+![](img/Projet.jpg){fig-alt="Projets de recherche de la Chaire CARA"}
+
+::: {.cara-page-hero-text}
+::: {.cara-kicker}
+Recherche · Chaire CARA
+:::
+
+# Projets de recherche
+
+Cette section regroupe des projets de recherche en cours auxquels participent des étudiantes et des étudiants. Les travaux présentés peuvent être à différentes étapes de développement et ne correspondent pas nécessairement à des publications finalisées.
+
+:::
+
+:::
+
+
+::: {.cara-projects-section}
+
+## Projets en cours
+
+::: {.cara-project-list}
+
+```{r echo = FALSE, results = "asis", message = FALSE, warning = FALSE}
+publis <- Publis %>%
+  filter(Etat == "Projet", is.na(Exclu)) %>%
+  arrange(desc(Année))
+
+template <- "
+<div class='cara-project-item'>
+  <div class='cara-project-title'>%s</div>
+  <div class='cara-project-authors'>%s</div>
+  <div class='cara-project-meta'><em>%s</em></div>
+  <div class='cara-project-abstract'>%s</div>
+</div>\n"
+
+if (nrow(publis) > 0) {
+  for (i in seq_len(nrow(publis))) {
+    current <- publis[i, ]
+
+    titre <- ifelse(is.na(current$Lien), "", current$Lien)
+    auteurs <- ifelse(is.na(current$AllAuteurs), "", current$AllAuteurs)
+    pages <- ifelse(is.na(current$Pages), "", current$Pages)
+    abstract <- ifelse(is.na(current$Abstract), "", current$Abstract)
+
+    cat(sprintf(
+      template,
+      titre,
+      auteurs,
+      pages,
+      abstract
+    ))
+  }
+}
+```
+
+:::
+
+:::
+
+:::

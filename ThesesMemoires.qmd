@@ -1,0 +1,151 @@
+---
+title: ""
+pagetitle: "Thèses et mémoires | Chaire CARA"
+page-layout: full
+toc: false
+---
+
+
+::: {.cara-theses-page}
+
+::: {.cara-page-hero}
+
+![](img/UQAMp5.jpg){fig-alt="Campus de l’UQAM"}
+
+::: {.cara-page-hero-text}
+::: {.cara-kicker}
+Formation · Chaire CARA
+:::
+
+# Thèses et mémoires
+
+Travaux de maîtrise et de doctorat réalisés dans le cadre des activités de recherche de la Chaire ou sous la direction de membres associés à la Chaire.
+:::
+
+:::
+
+
+::: {.cara-theses-section}
+
+## Thèses de doctorat
+
+::: {.cara-theses-list}
+
+::: {.cara-thesis-item}
+**Coulibaly, Raissa** — 2026  
+« Expérience d’assurance et durée de couverture dans la tarification sous une loi de Tweedie »  
+Dir. : Jean-Philippe Boucher. Thèse de doctorat. Montréal (Québec, Canada), Université du Québec à Montréal, Doctorat en mathématiques.
+:::
+
+::: {.cara-thesis-item}
+**Jessup, Sébastien** — 2024  
+« [Advancements in model combination and uncertainty quantification with applications in actuarial science](https://spectrum.library.concordia.ca/id/eprint/994722/) »  
+Dir. : Mélina Mailhot et Mathieu Pigeon. Thèse de doctorat. Montréal (Québec, Canada), Université Concordia, Doctorat en mathématiques.
+:::
+
+::: {.cara-thesis-item}
+**Michaelides, Marie** — 2024  
+« [Analyse de la dépendance intra-trajectoire dans la modélisation individuelle des réserves en assurance non-vie](https://archipel.uqam.ca/17893/) »  
+Dir. : Mathieu Pigeon et Hélène Cossette. Thèse de doctorat. Montréal (Québec, Canada), Université du Québec à Montréal, Doctorat en mathématiques.
+:::
+
+::: {.cara-thesis-item}
+**Duval, Francis** — 2024  
+« [Modélisation des sinistres en assurance automobile avec l’utilisation de données télématiques : approches d’apprentissage automatique en classification et régression de comptage](https://archipel.uqam.ca/17760/) »  
+Dir. : Jean-Philippe Boucher et Mathieu Pigeon. Thèse de doctorat. Montréal (Québec, Canada), Université du Québec à Montréal, Doctorat en mathématiques.
+:::
+
+::: {.cara-thesis-item}
+**Turcotte, Roxane** — 2023  
+« [Approches statistiques semi-paramétriques pour la modélisation du risque en assurance automobile](https://archipel.uqam.ca/17211/) »  
+Dir. : Jean-Philippe Boucher. Thèse de doctorat. Montréal (Québec, Canada), Université du Québec à Montréal, Doctorat en mathématiques.
+:::
+
+::: {.cara-thesis-item}
+**Yanez, Juan Sebastian** — 2023  
+« [Modélisation granulaire des réserves en assurances incendie, accidents et risques divers avec une structure en composantes hiérarchiques](https://archipel.uqam.ca/17522/) »  
+Dir. : Mathieu Pigeon. Thèse de doctorat. Montréal (Québec, Canada), Université du Québec à Montréal, Doctorat en mathématiques.
+:::
+
+:::
+
+:::
+
+
+::: {.cara-theses-section}
+
+## Mémoires de maîtrise
+
+::: {.cara-theses-list}
+
+::: {.cara-thesis-item}
+**Coly, Aminata** — 2026  
+« Analyse et modélisation des vols de véhicules à l’aide du modèle Lee-Carter »  
+Dir. : Roxane Turcotte. Mémoire. Montréal (Québec, Canada), Université du Québec à Montréal, Maîtrise en mathématiques.
+:::
+
+::: {.cara-thesis-item}
+**Dibert Dollet, Jean Paul Stevy** — 2026  
+« Génération de données synthétiques pour les réserves en dommages corporels : une approche par apprentissage automatique »  
+Dir. : Mathieu Pigeon. Mémoire. Montréal (Québec, Canada), Université du Québec à Montréal, Maîtrise en mathématiques.
+:::
+
+::: {.cara-thesis-item}
+**Paquet, Anne** — 2025  
+« [Modélisation de la fréquence de feu en assurance commerciale par le rebalancement de données et l’élicitation d’avis d’experts](https://archipel.uqam.ca/19969/) »  
+Dir. : Jean-Philippe Boucher. Mémoire. Montréal (Québec, Canada), Université du Québec à Montréal, Maîtrise en mathématiques.
+:::
+
+::: {.cara-thesis-item}
+**Konche, Borel** — 2025  
+« Analyse multi-états du comportement des assurés et estimation de la valeur client en assurance de dommages »  
+Dir. : Jean-Philippe Boucher et Mathieu Pigeon. Mémoire. Montréal (Québec, Canada), Université du Québec à Montréal, Maîtrise en mathématiques.
+:::
+
+::: {.cara-thesis-item}
+**Lavoie, Marco** — 2024  
+« [Modèles statistiques de surveillance de maladies infectieuses appliqués aux vols d’automobiles](https://archipel.uqam.ca/19167/) »  
+Dir. : Jean-Philippe Boucher. Mémoire. Montréal (Québec, Canada), Université du Québec à Montréal, Maîtrise en mathématiques.
+:::
+
+::: {.cara-thesis-item}
+**Oueini, Christina** — 2023  
+« [Modèles équitables de tarification en assurance automobile](https://archipel.uqam.ca/17977/) »  
+Dir. : Mathieu Pigeon. Mémoire. Montréal (Québec, Canada), Université du Québec à Montréal, Maîtrise en mathématiques.
+:::
+
+::: {.cara-thesis-item}
+**LeBlanc, Alexandre** — 2023  
+« [Modélisation de la réserve avec modèles linéaires généralisés pondérés par la réciproque de la probabilité de censure](https://archipel.uqam.ca/17998/) »  
+Dir. : Mathieu Pigeon. Mémoire. Montréal (Québec, Canada), Université du Québec à Montréal, Maîtrise en mathématiques.
+:::
+
+::: {.cara-thesis-item}
+**Dankwa, Ernest** — 2020  
+« [Modélisation individuelle des réserves en assurance I.A.R.D. basée sur des réseaux de neurones](https://archipel.uqam.ca/14177/) »  
+Dir. : Mathieu Pigeon. Mémoire. Montréal (Québec, Canada), Université du Québec à Montréal, Maîtrise en mathématiques.
+:::
+
+::: {.cara-thesis-item}
+**Jessup, Sébastien** — 2020  
+« [Modélisation du risque liée aux primes non acquises avec dépendance](https://archipel.uqam.ca/14179/) »  
+Dir. : Mathieu Pigeon. Mémoire. Montréal (Québec, Canada), Université du Québec à Montréal, Maîtrise en mathématiques.
+:::
+
+::: {.cara-thesis-item}
+**Meraihi, Noureddine** — 2019  
+« [Modélisation de la fréquence des sinistres sur les données télématiques par le modèle GBMP](https://archipel.uqam.ca/13722/) »  
+Dir. : Jean-Philippe Boucher. Mémoire. Montréal (Québec, Canada), Université du Québec à Montréal, Maîtrise en mathématiques.
+:::
+
+::: {.cara-thesis-item}
+**Crainic, Andra** — 2019  
+« [Arbres de décision pour la fréquence dans le cadre de la modélisation des réserves en assurance non-vie](https://archipel.uqam.ca/13670/) »  
+Dir. : Mathieu Pigeon. Mémoire. Montréal (Québec, Canada), Université du Québec à Montréal, Maîtrise en mathématiques.
+:::
+
+:::
+
+:::
+
+:::

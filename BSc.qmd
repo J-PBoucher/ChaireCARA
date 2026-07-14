@@ -1,0 +1,20 @@
+---
+title: "Stage d'initation à la recherche de premier cycle"
+toc: TRUE
+---
+
+Des opportunités de stage d'iniation à la recherche sont offertes à chaque année dans la Chaire. Les étudiants de première année ou de deuxième année du baccalauréat en actuariat de l'UQAM sont ainsi encouragés à contacter des membres de la Chaire pour indiquer leur intérêt.
+
+## Objectif
+
+L'objectif du stage de recherche, qui peut être crédité pour le cours *MAM5160 Stage*, est d'initier l'étudiant à la recherche et aux modélisations mathématiques avancées dans le domaine de l'actuariat de l'assurance de dommage.  Sous la supervision d'un professeur ou d'un étudiant de cycle supérieur en actuariat, le ou la stagiaire de recherche aura le mandat d'analyser certaines bases de données d'assurance, de lire certains ouvrages scientifiques récents et de répliquer certains des résultats obtenus dans des articles scientifiques.
+
+Un tel stage de recherche permet ainsi à l'étudiant(e) de comprendre ce qu'est un environnement de recherche académique et d'imaginer ce que pourrait être des études de cycle supérieur.
+
+## Bourses de recherche de 1er cycle en milieu universitaire
+
+Pour les étudiants ayant d'excellents résultats académiques (une moyenne cumulative supérieure à 4.0/4.3), il est aussi possible de faire de concours pour obtenir des bourses d'études du Conseil de recherches en sciences naturelles et en génie (CRSNG). Des détails peuvent être trouvés [ici](https://src.uqam.ca/programme/bourses-de-recherche-de-1er-cycle-en-milieu-universitaire/).
+
+L'obtention d'une bourse du CRSNG d'initiation à la recherche augmente les chances d'obtenir de futures bourses d'étude, comme des bourses d'étude de maitrise ou de doctorat.
+
+

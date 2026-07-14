@@ -1,0 +1,33 @@
+---
+title: Midi-rencontre avec les chercheurs et étudiant(e)s de la Chaire
+subtitle: "Présentation de la Chaire CARA aux étudiants de l'UQAM"
+date: 2022-10-26
+toc: TRUE
+---
+
+:::: {.columns}
+
+::: {.column width="65%"}
+
+Midi-rencontre avec les chercheurs et étudiant.e.s de la Chaire, et l'équipe de recherche de Co-operators.  
+
+- Bourses d'étude de maîtrise
+- Bourses d'étude de doctorat
+- Offres de stage de recherche
+- Offres de stage en entreprise
+
+:::
+
+::: {.column width="2%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="30%"}
+![](../../img/Presentation0.png)
+:::
+
+::: {.column width="3%"}
+<!-- empty column to create gap -->
+:::
+
+::::

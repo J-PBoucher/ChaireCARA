@@ -1,0 +1,14 @@
+{
+  "hash": "75d2759867d453760d50c318df5445cd",
+  "result": {
+    "markdown": "---\ntitle: Anne Paquet\nsubtitle: |\n  | Maitrise en mathématiques\ndescription: 'Université du Québec à Montréal'  \nimage: ../../img/APaquet.jpg\ntoc: TRUE\n---\n\n\n\n\n\n\n:::: {.columns}\n\n::: {.column width=\"65%\"}\n\n**Direction de recherche**:  \n\n- Jean-Philippe Boucher, professeur au Département de mathématiques de l’Université du Québec à Montréal  \n\n:::\n\n::: {.column width=\"2%\"}\n<!-- empty column to create gap -->\n:::\n\n::: {.column width=\"30%\"}\n![](../../img/APaquet.jpg)\n:::\n\n::: {.column width=\"3%\"}\n<!-- empty column to create gap -->\n:::\n\n::::\n\n\n\n\n\n\n\n## Liste des publications scientifiques \n\n\n  \n  - A. Paquet & J.-P. Boucher (2024), <a href='' target='_blank'>Modélisation bayésienne du risque d'incendie en assurance commerciale</a>, *[Projet en cours]* \n  \n    *Comparativement à l'assurance automobile, les risques en assurance commerciale sont fortement hétérogènes et les méthodes classiques de segmentation et de tarification ne sont pas adaptés.  Afin d'améliorer la qualité de prédiction, nous nous basons sur le jugement des courtiers d'assurance pour proposer une prime de la couverte incendie des risques commerciaux.*  \n  \n\n\n## Présentations scientifiques\n\n\n\n\n\n\n## Autres présentations\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

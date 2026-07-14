@@ -1,0 +1,30 @@
+---
+title: "Séminaire des étudiants de la Chaire CARA"
+subtitle: |
+  | Bonus-Malus Scale Premiums For Tweedies’ Compound Poisson Model
+  | Raissa Coulibaly, UQAM 
+date: 2023-09-21
+image: ../../img/RaissaC.png
+toc: TRUE
+---
+
+:::: {.columns}
+
+::: {.column width="65%"}
+
+:::
+
+
+::: {.column width="2%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="30%"}
+![](../../img/RaissaC.png)
+:::
+
+::: {.column width="3%"}
+<!-- empty column to create gap -->
+:::
+
+::::

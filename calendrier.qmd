@@ -1,0 +1,57 @@
+---
+toc: FALSE
+---
+
+# Liste des prochaines conférences internationales
+
+Le tableau ci-dessous liste toutes les conférences, ateliers et séminaires pertinents des prochains mois.
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+
+library(dplyr)
+library(toastui)
+library(DT)
+library(lubridate)
+library(readxl)
+
+#events2 <- read.csv(file="csv_files/events.csv")
+events2 <- read_excel("xls_files/events.xlsx") %>%
+  filter(end > Sys.Date())
+
+events2$body <- paste0("<a href='",events2$body,"' target='_blank'>",events2$title,"</a>")
+
+table <- events2[,c(3, 5, 6)] %>%
+  arrange(start) 
+
+table$mois <- month(table$start)
+table$mois <- factor(table$mois, levels = 1:12, 
+                     labels = c('Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 
+                                'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'), ordered = TRUE)
+
+table <- table[,c(1, 4, 2, 3)] 
+colnames(table) <- c("Conférence", "Mois", "Start", "End")
+
+datatable(table %>% mutate(Start = format(Start, format = "%Y-%m-%d"), End = format(End, format = "%Y-%m-%d")), rownames = FALSE, options = list(searching = FALSE, pageLength = 25),
+  escape = FALSE)
+
+```
+
+---
+
+ <br/><br/> 
+ 
+# Calendrier interactif
+
+Les événements ont été placés dans un calendrier interactif.  En cliquant sur la conférence, le lien web de la conférence est indiqué.
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.height=10}
+
+calendar(events2, navigation = TRUE) %>%
+  cal_month_options(
+    startDayOfWeek  = 1, 
+    daynames = c("Dim", "Lun", "Mar", "Mer", "Jeu", "Ven", "Sam"),
+    narrowWeekend = FALSE
+  )
+
+```
+

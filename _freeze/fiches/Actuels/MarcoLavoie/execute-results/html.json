@@ -1,0 +1,14 @@
+{
+  "hash": "104db60a482f7239f54fa15547e7ec7d",
+  "result": {
+    "markdown": "---\ntitle: Marco Lavoie\nsubtitle: |\n  | Maitrise en mathématiques\ndescription: 'Université du Québec à Montréal'  \nimage: ../../img/MLavoie.jpg\ntoc: TRUE\n---\n\n\n\n\n\n\n:::: {.columns}\n\n::: {.column width=\"65%\"}\n\n**Direction de recherche**:  \n\n- Jean-Philippe Boucher, professeur au Département de mathématiques de l’Université du Québec à Montréal  \n\n:::\n\n::: {.column width=\"2%\"}\n<!-- empty column to create gap -->\n:::\n\n::: {.column width=\"30%\"}\n![](../../img/MLavoie.jpg)\n:::\n\n::: {.column width=\"3%\"}\n<!-- empty column to create gap -->\n:::\n\n::::\n\n\n\n\n\n\n\n## Liste des publications scientifiques \n\n\n  \n  - M. Lavoie & J.-P. Boucher (2024), <a href='' target='_blank'>Séries temporelles de comptage pour générer des alertes sur la couverture de vols d'automobile</a>, *[Projet en cours]* \n  \n    *Des modèles utilisées en biostatistiques permettent de générer des alertes lorsque le nombre d'infections de maladies contagieuses est en forte augmentation.  Nous généralisons ces approches pour l'assurance de dommage afin de créer des alertes lorsque les statistiques du nombre de vols de voitures subit une augmentation importante.*  \n  \n\n\n## Présentations scientifiques\n\n\n\n\n\n\n## Autres présentations\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

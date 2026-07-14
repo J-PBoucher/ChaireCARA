@@ -1,0 +1,154 @@
+---
+title: "Doctorat en actuariat"
+toc: TRUE
+---
+
+Comme pour la maitrise, il n'existe pas de diplôme ayant officiellement le nom de *doctorat en actuariat* à l'UQAM.  En pratique, encore une fois, les étudiant(e)s de la Chaire peuvent suivre un programme équivalent en poursuivant des études de doctorat à l'UQAM dans la **concentration statistique du doctorat en mathématiques**.  La description officielle du programme se trouve [ici](https://etudier.uqam.ca/programme?code=3673), mais il convient de mieux expliquer les éléments importants du programme pour la Chaire.
+---
+
+## Exigences académiques
+
+::: panel-tabset
+
+### Cours (scolarité) {-}
+
+Il faut réussir 6 cours pour le programme de doctorat en mathématiques de l'UQAM. Bien qu'une liste de cours soit donnée sur le site de l'UQAM, la majorité des cours ne sont pas souvent offerts.  Il devient ainsi important de bien choisir ses cours en discutant avec son directeur/sa directrice de recherche.  Le plus important pour l'étudiant(e) est de s'assurer de suivre au moins **deux séminaires** pendant sa scolarité de doctorat.  Les séminaires sont des cours dont le sigle débute par *MAT9*.  Dans les domaines d'expertise de la Chaire, les deux séminaires suivants sont donnés fréquemment:
+
+- **MAT998F: Analyse statistique des réserves en assurance IARD**
+- **MAT998H: Tarification avancée**
+
+Pour compléter la scolarité, il est fort probable que vous ayez à suivre des cours de doctorat dans d'autres universités montréalaises, via l'[Institut de Science Mathématique (ISM)](https://ism.uqam.ca/).  Certains cours de la liste [mathématiques actuarielles et financières](http://ism.uqam.ca/~ism/accueil/formation/mathematiques-actuarielles-et-financieres/) ou de la liste [statistique](http://ism.uqam.ca/~ism/accueil/formation/statistics/) peuvent en effet être pertinents.  
+
+::: {.callout-tip collapse='true'}
+## Pour les étudiant(e)s ayant une maitrise en actuariat de l'UQAM  (ou l'équivalent)
+
+Il est possible de se faire créditer jusqu'à 2 cours de maitrise pour la scolarité du doctorat. Ainsi, au lieu de suivre 6 cours pour la scolarité, 4 cours deviendraient nécessaires. Il est conseillé de discuter de la situation avec son directeur/sa directrice de recherche.
+
+:::
+
+### Thèse de doctorat {-}
+
+En plus de la scolarité, les étudiant(e)s de la Chaire doivent aussi rédiger une thèse de doctorat sur un sujet de recherche près des thématiques de recherche de la Chaire.  Il est recommandé de discuter avec son directeur/sa directrice de recherche pour trouver un sujet de recherche pour la thèse. 
+
+### Examens de synthèse {-}
+
+L'une des exigences du doctorat en mathématiques de l'UQAM est la réussite de **deux** examens de synthèse, communément appelés *examens prédoctoraux*: 
+
+::: {.callout-note  collapse='true'}
+## MAT9012 (Examen de synthèse; écrit), Partie générale
+
+Le programme de doctorat en mathématiques offre plusieurs thèmes pour l'examen de synthèse. Nous demandons aux étudiant(e)s de la Chaire de sélectionner les deux thèmes suivants:
+
+
+1) **Statistique actuarielle**  
+    - **Contenu**:   
+    Caractéristiques d’une distribution ; Distributions discrètes, continues et mixtes ; Distributions composées ; Modifications aux contrats (franchise, limite, etc.) ; Distribution du coût total des sinistres (approches collectives et approches individuelles) ; Estimation ponctuelle et par intervalle (méthode des moments, méthode du maximum de vraisemblance, etc.) ; Tests d’hypothèses ; Sélection de modèles.  Variables aléatoires modélisant la sinistralité en assurance ; Famille exponentielle, moyenne et fonction de variance ; Régression linéaire : moindres carrés, moindres carrés pondérés, tests d’hypothèses, analyse des résidus, etc. ; Modèles linéaires généralisés : lien canonique, estimation, déviance, etc. ; Distributions de comptage pour le nombre de réclamations : Poisson, quasi-vraisemblance, etc. ; Distributions continues pour les pertes et la sévérité des réclamations : distributions gamma, inverse-gaussienne et Tweedie, etc.    
+
+    - **Références**:  
+    S.A. Klugman, H.H. Panjer et G.E. Willmot, Loss Models : From Data to Decisions, 4th ed., Wiley (2012), (Chapitres 3 à 16, sauf 15).    
+De Jong, P., Heller, G. Z. Generalized linear models for insurance data (Vol. 10), Cambridge University Press (2008) (Chapitres 1 à 8, sauf 7).       
+
+    - **Autres références**:  
+    Ohlsson, E., & Johansson, B. (2010). Non-life insurance pricing with generalized linear models (Vol. 21). Berlin : Springer.    
+Dobson, A. J., & Barnett, A. (2008). An introduction to generalized linear models. CRC press.    
+Frees, E. W., Derrig, R. A., & Meyers, G. (Eds.). (2014). Predictive modeling applications in actuarial science (Vol. 1). Cambridge University Press. 
+
+
+2) **Statistique appliquée**  
+    - **Contenu**:   
+    Régression linéaire multiple, estimation par moindres carrés, théorème de Gauss-Markov. Tests (t-test, F-test)
+régions de confiance pour les paramétres, prédictions. Covariables catégorielles et continues. Bruit coloré (variances différentes ou erreurs corrélées). Analyse des résidus, détection d’observations influentes, hypothése de normalité. Colinéarité. Sélection de variables.    
+
+    - **Référence**:   
+    A. Sen, M. Srivastava, Regression Analysis : Theory, Methods and Applications, 4th edition, Springer, (1997) (Chapitres 1 à 11).
+
+:::
+
+::: {.callout-note  collapse='true'}
+## MAT9013 (Examen de synthèse; oral), Partie spécialisée
+
+L'examen spécialisé consiste en une présentation orale devant un comité de professeurs. La présentation est suivie d'une période de questions générales et spécifiques autour de la thématique de recherche choisie par l'étudiant pour son doctorat. Après quelques mois de recherche, des résultats de recherche préliminaires sont habituellement obtenus et donc présentés au comité d'évaluation. L'examen est aussi l'occasion pour l'étudiant(e) de présenter son plan de recherche pour décrire ce que devrait être sa thèse de doctorat.
+
+:::
+
+
+### Cheminement  {-} 
+
+Le cheminement de l'étudiant(e) de la Chaire dépend de sa session d'arrivée aux études. Les étudiant(e)s de la Chaire seront intégré(e)s dans l'équipe 
+
+1) À la session d'automne (environ le 1er septembre)
+2) À la session d'hiver (environ le 1er janvier). 
+3) *Exceptionnellement*, des étudiant(e)s pourraient aussi être intégré(e)s à l'équipe de la Chaire à la session d'été (environ le 1er mai). 
+
+La première année au doctorat est normalement consacrée à la réussite de la scolarité (6 cours), de même qu'à la réussite de l'examen de synthèse écrit (MAT9012).  Par la suite, les travaux de recherche débutent et l'examen de synthèse oral (MAT9013) est réussi pendant l'année suivante.  La recherche se poursuit par la suite pendant quelques années jusqu'au dépôt de la thèse, laquelle sera évaluée par un jury de professeurs, dont au moins un professeur externe.  Si la thèse est acceptée, et après les possibles corrections demandées par le jury de thèse, une date de soutenance est fixée.
+
+:::
+
+
+## Financement des études 
+
+::: panel-tabset
+
+### Bourses de la Chaire {-}
+
+A toutes les années, la Chaire sollicite la candidature d’étudiant(e)s pour un financement des études au doctorat.  Si l'étudiant(e) est sélectionné(e), le financement des études, via le versement d'une bourse d'étude, débute dès l'arrivée dans la Chaire.  Même si l'étudiant(e) a des cours d'appoint ou une propédeutique à réussir, le financement débutera dès l'inscription de l'étudiant à l'UQAM.
+
+::: {.callout-important}
+## Exigences pour visa d'étudiant(e)
+
+Pour les étudiant(e)s provenant de l'étranger, il est important de vérifier si l'exigence de réussite de cours d'appoint ou de cours de propédeutique nécessite d'autres types d'autorisation pour entrer au Canada.
+
+:::
+
+### Autres bourses  {-}
+
+Il est recommandé aux étudiant(e)s de la Chaire de vérifier si d'autres sources de financement des études sont possibles. Certaines bourses d'études pour cycles supérieurs sont listées ci-dessous:
+
+- Bourse du [Fonds de recherche du Québec - Nature et technologies (FRQNT)](https://frq.gouv.qc.ca/programme/bourses-de-formation-a-la-maitrise-frqnt/)
+- Bourse du [Conseil de recherches en sciences naturelles et en génie (CRSNG)](https://www.nserc-crsng.gc.ca/students-etudiants/pg-cs/cgsm-bescm_fra.asp)
+- Bourse d’[exemption des droits de scolarité majorés pour étudiants-es étrangers-ères au 2e cycle](https://bourses.uqam.ca/trouver-une-bourse/bourses-dexemption-des-droits-de-scolarite-majores-pour-etudiants-es-etrangers-eres-au-2e-cycle/)
+- Bourse de la [*Casualty Actuarial Society* (CAS)](https://www.casact.org/trustscholarship)    
+- Bourse de l'Institut Canadien des actuaires  
+- Bourse de la *Society of Actuaries* (SOA)
+- etc.
+
+### Démonstration  {-}
+
+Plusieurs cours du baccaulauréat en actuariat offrent des séances de démonstration de 2 heures, en plus du cours magistral.  Ces séances, animées par des étudiant(e)s (de cycle supérieur, ou ayant réussi le cours dans le passé), servent à faire des exercices ou répondre aux questions des étudiant(e)s. Il s'agit d'un travail rémunéré par l'UQAM.  Avant d'accepter un contrat de démonstration, il est recommandé d'en parler à son directeur/sa directrice de recherche afin de vérifier que ce travail ne ralentira pas la progression des études.
+
+
+### Charge de cours  {-}
+
+Pendant les études de doctorat, souvent lorsque la scolarité est terminée, il est possible pour un(e) étudiant(e) de doctorat d'enseigner un cours dans le programme de baccaulauréat en actuariat de l'UQAM. Avant d'accepter un tel contrat, il est recommandé d'en parler à son directeur/sa directrice de recherche afin de vérifier que ce travail ne ralentira pas la progression des études.
+
+:::
+
+
+
+
+## Autres ressources
+
+::: panel-tabset
+
+### Cours d'anglais  {-}
+
+Des cours d'anglais hebdomadaires, offerts par Co-operators, sont possibles lors des études de maitrise. Il est recommandé de profiter de cette occasion unique car une grande partie des étudiant(e)s qui diplôment de la maitrise iront directement sur le marché du travail.  La maitrise de l'anglais est souvent une exigence pour plusieurs des emplois dans le domaine de l'actuariat.  De plus, dans le cadre de la maitrise, de nombreux articles ou livres de référence sont anglais.
+
+Il faut aborder le sujet avec son directeur/sa directrice de recherche pour obtenir plus de détails.
+
+### Matériel informatique  {-}
+
+Lorsque le projet de recherche débute, du matériel informatique, principalement un ordinateur portable, sera offert par Co-operators. L'ordinateur sera utilisé pour accéder aux données de Co-operators afin de réussir son mémoire de maitrise.  Pour la scolarité de maitrise, afin de réussir les travaux pratiques, il est recommandé d'avoir son propre ordinateur personnel.  Si l'accès à un ordinateur personnel est difficile, il est recommandé d'aborder le sujet avec son directeur/sa directrice de recherche pour voir si un ordinateur pourrait être prêté.
+
+### Séminaire de la Chaire {-}
+
+La Chaire organise régulièrement plusieurs activités scientifiques: ateliers, séminaires des étudiants, etc.  Il est demandé aux étudiant(e)s de la Chaire de participer à ces événements, et d'aider à leur organisation.  Le séminaire de la Chaire est l'occasion de présenter ses résultats de recherche aux autres étudiant(e)s de la Chaire, et de discuter des résultats.
+
+La Chaire est aussi associée au Laboratoire de recherche [Quantact](http://quantact.uqam.ca/). Depuis 2014, Quantact est le Laboratoire de mathématiques actuarielles et financières du [Centre de recherches mathématiques (CRM)](https://www.crmath.ca/). Il s'agit d'un regroupement inter-universitaire de chercheurs spécialisés dans les mathématiques de l'actuariat et de la finance. Quantact offre aussi plusieurs séminaires réguliers dans le domaine de l'actuariat et il est pertinent pour les étudiant(e)s de la Chaire d'y assister.
+
+### Budget de déplacement {-}
+
+Pendant les études de doctorat, un budget annuel est alloué aux étudiants pour assister à une conférence internationale.  Préférablement, la participation à la conférence sera l'occasion de présenter des résultats de recherche.  Il faut aborder le sujet avec son directeur/sa directrice de recherche pour plus de détails.
+
+:::
+

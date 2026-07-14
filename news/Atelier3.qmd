@@ -1,0 +1,27 @@
+---
+title: Atelier de recherche sur les modèles de réserves granulaires
+subtitle: "Atelier de recherche avec les chercheurs de la Chaire et des employés de Co-operators au sujet des réserves granulaires."
+date: 2020-01-31
+toc: TRUE
+---
+
+:::: {.columns}
+
+::: {.column width="65%"}
+
+Atelier de recherche avec les chercheurs de la Chaire et des employés de Co-operators au sujet des réserves granulaires.  Présentations de Francis Duval, Andra Crainic, Manuel Grenier et Véronica Gousseva.
+:::
+
+::: {.column width="2%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="30%"}
+![](../../img/3eAtelier.png)
+:::
+
+::: {.column width="3%"}
+<!-- empty column to create gap -->
+:::
+
+::::

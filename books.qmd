@@ -1,0 +1,163 @@
+---
+title: ""
+pagetitle: "Notes de cours | Chaire CARA"
+page-layout: full
+toc: false
+---
+
+
+::: {.cara-courses-page}
+
+::: {.cara-page-hero}
+
+![](img/UQAMp8.jpg){fig-alt="Campus de l’UQAM"}
+
+::: {.cara-page-hero-text}
+::: {.cara-kicker}
+Ressources pédagogiques · Chaire CARA
+:::
+
+# Notes de cours 
+
+Ressources pédagogiques en actuariat développées pour les cours du baccalauréat, de la maîtrise et du doctorat à l’UQAM.
+:::
+
+:::
+
+
+::: {.cara-courses-section}
+
+::: {.cara-section-header}
+## Baccalauréat en actuariat
+:::
+
+
+::: {.cara-course-card}
+
+::: {.cara-course-main}
+### [ACT1050 — Introduction à l’actuariat I](https://uqam-act1050.netlify.app/)
+
+::: {.cara-course-meta}
+Baccalauréat en actuariat · UQAM
+:::
+
+**Objectifs**  
+Introduction à la tarification, l’évaluation et la gestion des risques actuariels ayant une incidence à long terme. Le cours couvre à part égale les domaines de l’assurance vie et des régimes de retraite.
+
+**Sommaire du contenu**  
+Introduction aux différents mécanismes individuels et collectifs d’assurance de personnes : sélection des risques, tarification et évaluation des produits d’assurance vie individuelle et collective. Introduction à la réassurance. Introduction aux régimes de retraite : intégration des régimes privés et publics, régimes complémentaires de retraite, calcul des prestations de retraite, régimes publics québécois et canadiens en régimes de retraite. Encadrement juridique et fiscalité. Éthique, morale et déontologie de l’actuaire en assurance vie et en régimes de retraite.
+
+::: {.cara-course-author}
+**Auteur des notes de cours**  
+Jean-Philippe Boucher
+:::
+
+[Consulter les notes](https://uqam-act1050.netlify.app/){.btn .btn-outline-primary .btn-sm}
+:::
+
+::: {.cara-course-cover}
+[![](img/Cover_ACT1050.png){fig-alt="Page couverture des notes du cours ACT1050"}](https://uqam-act1050.netlify.app/)
+:::
+
+:::
+
+
+::: {.cara-course-card}
+
+::: {.cara-course-main}
+### [ACT2060 — Applications probabilistes des risques actuariels](https://bookdown.org/boucherjphilippe/ACT2060/)
+
+::: {.cara-course-meta}
+Baccalauréat en actuariat · UQAM
+:::
+
+**Objectifs**  
+Calcul de la prime et distance quadratique, application des distributions de probabilités dans un contexte de tarification. Applications de la loi des grands nombres dans un contexte du calcul du chargement de sécurité. Segmentation des risques, causalité et paradoxe de Simpson, mutualisation et solidarité, biais minimums. Explications du contexte pratique. Méthodes de provisionnement, estimation de la variabilité des réserves, modèle de Mack. Introduction aux valeurs extrêmes.
+
+Dans un contexte d’applications mathématiques, le cours introduit au travail de l’actuaire dans les domaines de l’assurance collective et de l’assurance IARD.
+
+::: {.cara-course-author}
+**Auteur des notes de cours**  
+Jean-Philippe Boucher
+:::
+
+[Consulter les notes](https://bookdown.org/boucherjphilippe/ACT2060/){.btn .btn-outline-primary .btn-sm}
+:::
+
+::: {.cara-course-cover}
+[![](img/ACT2060.png){fig-alt="Page couverture des notes du cours ACT2060"}](https://bookdown.org/boucherjphilippe/ACT2060/)
+:::
+
+:::
+
+
+::: {.cara-course-card}
+
+::: {.cara-course-main}
+### [ACT5400 — Crédibilité](https://bookdown.org/boucherjphilippe/ACT5400/)
+
+::: {.cara-course-meta}
+Baccalauréat en actuariat · UQAM
+:::
+
+**Objectifs**  
+Ce cours introduit à la théorie de la crédibilité et à l’analyse probabiliste bayésienne, plus particulièrement aux techniques et applications de la théorie de la crédibilité en assurance, ainsi qu’aux techniques d’inférence statistique bayésiennes.
+
+**Sommaire du contenu**  
+Crédibilité américaine, crédibilité bayésienne, modèle de crédibilité de Bühlmann et Bühlmann-Straub, crédibilité totale et approche de Jewell, introduction à l’inférence bayésienne : fonction de pertes, lois conjuguées, techniques avancées. Ce cours comporte une séance de travaux pratiques de deux heures par semaine.
+
+::: {.cara-course-author}
+**Auteur des notes de cours**  
+Jean-Philippe Boucher
+:::
+
+[Consulter les notes](https://bookdown.org/boucherjphilippe/ACT5400/){.btn .btn-outline-primary .btn-sm}
+:::
+
+::: {.cara-course-cover}
+[![](img/ACT5400.png){fig-alt="Page couverture des notes du cours ACT5400"}](https://bookdown.org/boucherjphilippe/ACT5400/)
+:::
+
+:::
+
+:::
+
+
+::: {.cara-courses-section}
+
+::: {.cara-section-header}
+## Maîtrise et doctorat en actuariat
+:::
+
+
+::: {.cara-course-card}
+
+::: {.cara-course-main}
+### [MAT998H — Tarification avancée](https://bookdown.org/boucherjphilippe/MAT998H/)
+
+::: {.cara-course-meta}
+Cycles supérieurs · UQAM
+:::
+
+**Objectifs**  
+Revue des techniques de tarification avancées dans le domaine de l’assurance IARD, avec revue des résultats récents de la littérature scientifique.
+
+Le cours couvre notamment les approches statistiques usuelles pour la tarification, les approches pratiques de la tarification, les modèles de tarification avec variables de comptage pour données transversales et longitudinales, ainsi que les approches bonus-malus.
+
+::: {.cara-course-author}
+**Auteur des notes de cours**  
+Jean-Philippe Boucher
+:::
+
+[Consulter les notes](https://bookdown.org/boucherjphilippe/MAT998H/){.btn .btn-outline-primary .btn-sm}
+:::
+
+::: {.cara-course-cover}
+[![](img/MAT998H.png){fig-alt="Page couverture des notes du cours MAT998H"}](https://bookdown.org/boucherjphilippe/MAT998H/)
+:::
+
+:::
+
+:::
+
+:::

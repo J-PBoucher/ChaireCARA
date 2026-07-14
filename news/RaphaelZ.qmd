@@ -1,0 +1,29 @@
+---
+title: "Séminaire des étudiants de la Chaire CARA"
+subtitle: |
+  | Beyond cost sensitive fraud detection with machine learning model
+  | Raphael Zerbato, HEC Montréal 
+date: 2023-02-22
+toc: TRUE
+---
+
+:::: {.columns}
+
+::: {.column width="65%"}
+
+:::
+
+
+::: {.column width="2%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="30%"}
+![](../../img/Plain.png)
+:::
+
+::: {.column width="3%"}
+<!-- empty column to create gap -->
+:::
+
+::::

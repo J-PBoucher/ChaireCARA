@@ -1,0 +1,130 @@
+---
+title: Francis Duval, PhD.
+subtitle: |
+  | Doctorat en mathématiques
+  | UQAM
+image: ../../img/FDuval.png
+description: "2024/02"
+toc: TRUE
+---
+
+```{r echo = FALSE, results = "asis",  message=FALSE, warning=FALSE}
+
+name = "F.Duval"
+
+```
+
+:::: {.columns}
+
+::: {.column width="65%"}
+
+**Direction de recherche**:  
+
+- Mathieu Pigeon, professeur au Département de mathématiques de l’Université du Québec à Montréal  
+- Jean-Philippe Boucher, professeur au Département de mathématiques de l’Université du Québec à Montréal  
+
+**Thèse de doctorat**:  
+
+Duval, Francis (2024), « [Modélisation des sinistres en assurance automobile avec l’utilisation de données télématiques : approches d’apprentissage automatique en classification et régression de comptage](https://archipel.uqam.ca/17760/) »,  Dir.: Jean-Philippe Boucher et Mathieu Pigeon, Thèse de doctorat. Montréal (Québec, Canada), Université du Québec à Montréal, Doctorat en mathématiques.
+
+**Page GitHub**:  
+
+[https://github.com/francisduval](https://github.com/francisduval)
+
+:::
+
+::: {.column width="2%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="30%"}
+![](../../img/FDuval.png)
+:::
+
+::: {.column width="3%"}
+<!-- empty column to create gap -->
+:::
+
+::::
+
+<!-- XXXXXXXXXXXXXXXXXXX Code plus bas XXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+
+```{r echo = FALSE, results = "asis",  message=FALSE, warning=FALSE}
+
+library(dplyr)
+library(toastui)
+library(DT)
+library(lubridate)
+library(anytime)
+library(stringr)
+
+load('../../rda_files/Publis.Rda')
+load('../../rda_files/Presentations.Rda')
+load('../../rda_files/Preslocales.Rda')
+load('../../rda_files/bycours.Rda')
+load('../../rda_files/Autres.Rda')
+
+source('../../Fonctions.R')
+
+
+###
+
+Publis <- Publis %>% 
+  filter(Auteur1 == name | Auteur2 == name | Auteur3 == name | Auteur4 == name | Auteur5 == name | Auteur6 == name) 
+Presentations <- Presentations %>%
+  filter(Presentateur == name)
+PresLocales <- PresLocales %>%
+  filter(Presentateur == name)
+Cours <- bycours %>%
+  filter(Nom == name & Tache == 'Enseignant')
+Demo <- bycours %>%
+  filter(Nom == name & Tache == 'Demonstrateur')
+Autres <- Autres %>%
+    filter(Nom == name)
+
+```
+
+```{r echo = FALSE, results = "asis",  message=FALSE, warning=FALSE}
+
+if(nrow(Publis) >0) printPublis(Publis)
+
+```
+
+```{r echo = FALSE, results = "asis",  message=FALSE, warning=FALSE}
+
+if(nrow(Presentations) >0) printPres(Presentations)
+
+```
+
+```{r echo = FALSE, results = "asis",  message=FALSE, warning=FALSE}
+
+if(nrow(Cours)+nrow(Demo)+nrow(PresLocales)+nrow(Autres) > 0){
+  cat("## Implications 
+      ")
+}
+```
+
+```{r echo = FALSE, results = "asis",  message=FALSE, warning=FALSE}
+
+if(nrow(PresLocales) >0) printPresLocales(PresLocales)
+
+```
+
+```{r echo = FALSE, results = "asis",  message=FALSE, warning=FALSE}
+
+if(nrow(Cours) >0) printCours(Cours)
+
+```
+
+```{r echo = FALSE, results = "asis",  message=FALSE, warning=FALSE}
+
+if(nrow(Demo) >0) printDemo(Demo)
+
+```
+
+```{r echo = FALSE, results = "asis",  message=FALSE, warning=FALSE}
+
+if(nrow(Autres) >0) printAutres(Autres)
+
+```
+

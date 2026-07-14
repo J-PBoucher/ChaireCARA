@@ -1,0 +1,28 @@
+---
+title: Atelier de recherche avec le professeur Julien Trufin (ULB)
+subtitle: "Atelier de recherche avec les chercheurs de la Chaire et des employés de Co-operators au sujet des modèles de tarification."
+date: 2024-11-27
+image: ../../img/Atelier202411.png
+toc: TRUE
+---
+
+:::: {.columns}
+
+::: {.column width="65%"}
+
+Atelier de recherche avec les chercheurs de la Chaire et des employés de Co-operators à propos de modèles en tarification.  Présentations de Julien Trufin de l'Université Libre de Bruxelles, de Francis Duval de Co-operators et de Raissa Coulibaly de l'UQAM.
+:::
+
+::: {.column width="2%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="30%"}
+![](../../img/Atelier202411.png)
+:::
+
+::: {.column width="3%"}
+<!-- empty column to create gap -->
+:::
+
+::::

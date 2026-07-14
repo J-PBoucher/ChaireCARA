@@ -1,0 +1,59 @@
+---
+title: Soutenance de doctorat de Francis Duval
+date: 2024-02-26
+subtitle: |
+  | Modélisation des sinistres en assurance automobile avec l’utilisation de données télématiques : approches d’apprentissage automatique en classification et régression de comptage
+image: ../../img/AvisSoutenance.png
+toc: TRUE
+---
+
+:::: {.columns}
+
+::: {.column width="65%"}
+
+**Direction de recherche**:  
+
+- Monsieur Mathieu Pigeon, professeur au Département de mathématiques de l’Université du Québec à Montréal  
+- Monsieur Jean-Philippe Boucher, professeur au Département de mathématiques de l’Université du Québec à Montréal  
+
+**Jury d’évaluation**:  
+
+- Monsieur Frédéric Godin, professeur au Département de mathématiques et statistiques de l’Université Concordia  
+- Monsieur Arthur Charpentier, professeur au Département de mathématiques de l’Université du Québec à Montréal  
+- Madame Marie-Hélène Descary, professeure au Département de mathématiques de l’Université du Québec à Montréal  
+- Monsieur Mathieu Pigeon, professeur au Département de mathématiques de l’Université du Québec à Montréal  
+- Monsieur Jean-Philippe Boucher, professeur au Département de mathématiques de l’Université du Québec à Montréal  
+
+**Représentant du doyen**:
+
+- Monsieur Alain Desgagné, professeur au Département de mathématiques de
+l’Université du Québec à Montréal 
+
+**Date de soutenance**:
+
+- Le lundi 26 février 2024 à 9h30
+
+**Endroit**:
+
+Université du Québec à Montréal    
+Pavillon Président-Kennedy    
+Salle PK-2265    
+201, avenue du Président-Kennedy    
+Montréal (Québec)    
+
+
+:::
+
+::: {.column width="2%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="30%"}
+![](../../img/FD.png)
+:::
+
+::: {.column width="3%"}
+<!-- empty column to create gap -->
+:::
+
+::::

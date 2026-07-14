@@ -1,0 +1,29 @@
+---
+title: "Séminaire des étudiants de la Chaire CARA"
+subtitle: |
+  | Client Lifetime Value (CLV): Vue d’ensemble de la métrique chez Co-operators 
+  | Idir Saidani, Co-operators 
+date: 2023-04-26
+toc: TRUE
+---
+
+:::: {.columns}
+
+::: {.column width="65%"}
+
+:::
+
+
+::: {.column width="2%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="30%"}
+![](../../img/IdirS.png)
+:::
+
+::: {.column width="3%"}
+<!-- empty column to create gap -->
+:::
+
+::::

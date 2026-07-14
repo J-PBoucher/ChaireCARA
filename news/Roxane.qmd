@@ -1,0 +1,17 @@
+---
+title: "Roxane Turcotte remporte le deuxième prix du meilleur article décerné par la revue Risks"
+subtitle: "Une doctorante de l’UQAM a testé un modèle actuariel qui pourrait lier prime d’assurance auto et kilométrage."
+date: "08/15/2022"
+image: ../img/auto.png
+about:
+  template: broadside
+  id: about-block
+  image: ../img/auto.png
+  image-shape: round
+---
+
+Une prime d’assurance liée au kilométrage? Le modèle actuariel testé par Roxane Turcotte pourrait ouvrir la porte à une tarification dynamique dans le domaine de l’assurance automobile.
+
+Qu’elles conduisent beaucoup ou très peu, les personnes souscrivant une assurance automobile paient une prime annuelle. «Les gens qui utilisent peu leur voiture devraient payer moins cher, car la distance parcourue est en lien direct avec le risque d’accident», observe Roxane Turcotte, chargée de cours et doctorante en mathématiques à l’Université du Québec à Montréal (UQAM) qui en a fait la démonstration dans un nouveau modèle actuariel. L’article qui rend compte des résultats de ses travaux, publié en collaboration avec son directeur de thèse, Jean-Philippe Boucher, professeur au Département de mathématiques, lui a valu le deuxième prix du meilleur article décerné par la revue Risks.
+
+[Voir la suite](https://salledepresse.uqam.ca/communiques-de-presse/une-doctorante-de-luqam-a-teste-un-modele-actuariel-qui-pourrait-lier-prime-dassurance-auto-et-kilometrage/)

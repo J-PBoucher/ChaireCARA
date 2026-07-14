@@ -1,0 +1,14 @@
+---
+title: "Andre Orelien Chuisseu Tchuisseu remporte le premier prix de présentation de recherche étudiante lors de l'Actuarial Research Conference 2024"
+subtitle: "Pour la présentation intitulée « Assessing Fire-Induced Losses Through Markovian Random Fields on Trees » "
+date: "09/25/2024"
+image: ../img/prix2.png
+about:
+  template: broadside
+  id: about-block
+  image: ../img/prix2.png
+  image-shape: round
+---
+
+Andre Orelien Chuisseu Tchuisseu remporte le premier prix de présentation de recherche étudiante lors de l'Actuarial Research Conference 2024 pour la présentation intitulée « Assessing Fire-Induced Losses Through Markovian Random Fields on Trees » 
+

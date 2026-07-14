@@ -1,0 +1,36 @@
+---
+toc: FALSE
+
+listing:
+  - id: futur-bourses
+    contents: bourses/new
+    type: default
+    image-height: 1.5in
+    sort:
+      - "date desc"
+    fields: [image, date, title, subtitle]
+    filter-ui: false
+    sort-ui: false
+    table-striped: true
+    
+  - id: past-bourses
+    contents: bourses/past
+    type: grid
+    sort:
+      - "date desc"
+    fields: [image, date, title]
+    filter-ui: false
+    sort-ui: false
+    table-striped: true
+    
+---
+
+# Concours de bourses ouverts
+
+
+</br>
+
+
+::: {#futur-bourses}
+:::
+

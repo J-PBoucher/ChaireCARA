@@ -1,0 +1,13 @@
+---
+title: Subvention du Fonds pour l’éducation et la saine gouvernance de l’Autorité des marchés financiers
+subtitle: "Ce financement permettra de proposer une modélisation du risque lié aux primes non acquises qui tiendra compte de la dépendance entre les différentes lignes d’affaires présentes au sein d’une compagnie et d’analyser les possibilités de diversification que cette dépendance autorise."
+date: 2020-03-17
+image: ../img/AMF.png
+about:
+  template: broadside
+  id: about-block
+  image: ../img/AMF.png
+  image-shape: round
+---
+
+Deux professeurs de l’UQAM, Jean-Philippe Boucher et Mathieu Pigeon, ont obtenu un financement de plus de 45 000$ du Fonds pour l’éducation et la saine gouvernance de l’Autorité des marchés financiers. Ce financement permettra de proposer une modélisation du risque lié aux primes non acquises qui tiendra compte de la dépendance entre les différentes lignes d’affaires présentes au sein d’une compagnie et d’analyser les possibilités de diversification que cette dépendance autorise.

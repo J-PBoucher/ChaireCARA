@@ -1,0 +1,29 @@
+---
+title: "Séminaire des étudiants de la Chaire CARA"
+subtitle: |
+  | Modélisation bayésienne en actuariat
+  | Anne Paquet, UQAM 
+date: 2022-09-28
+toc: TRUE
+---
+
+:::: {.columns}
+
+::: {.column width="65%"}
+
+:::
+
+
+::: {.column width="2%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="30%"}
+![](../../img/AnneP.png)
+:::
+
+::: {.column width="3%"}
+<!-- empty column to create gap -->
+:::
+
+::::

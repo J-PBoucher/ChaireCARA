@@ -1,0 +1,138 @@
+---
+page-layout: full
+toc: false
+
+listing:
+  - id: diplomes-listing
+    contents: fiches/Diplomes1
+    type: grid
+    grid-columns: 5
+    image-height: 2.1in
+    image-align: left
+    sort:
+      - "description desc"
+    fields: [image, title, subtitle, description]
+    filter-ui: false
+    sort-ui: false
+---
+
+::: {.cara-page .cara-alumni-page}
+
+::: {.cara-team-hero}
+
+::: {.cara-kicker}
+Relève formée à la Chaire
+:::
+
+# Ancien·ne·s étudiant·e·s
+
+La Chaire contribue à la formation de personnes diplômées et de stagiaires qui poursuivent ensuite leur parcours dans le milieu universitaire ou professionnel.
+
+:::
+
+
+::: {.cara-section}
+
+::: {.cara-section-header}
+## Étudiant·e·s diplômé·e·s
+
+Personnes ayant complété un mémoire, une thèse ou un projet de recherche sous la supervision ou la cosupervision de membres associés à la Chaire.
+:::
+
+::: {#diplomes-listing .cara-listing-grid}
+:::
+
+:::
+
+
+::: {.cara-section}
+
+::: {.cara-section-header}
+## Stagiaires de recherche de premier cycle
+
+Étudiant·e·s ayant contribué aux activités de recherche dans le cadre d’un stage.
+:::
+
+::: {.cara-intern-grid}
+
+::: {.cara-intern-card}
+### Enzo Corvi
+2026
+:::
+
+::: {.cara-intern-card}
+### Missaura Fokwe
+2026
+:::
+
+::: {.cara-intern-card}
+### Félix Lépine
+2026
+:::
+
+::: {.cara-intern-card}
+### Jay Assoum
+2023
+:::
+
+::: {.cara-intern-card}
+### Alexis Cordeau
+2022
+:::
+
+::: {.cara-intern-card}
+### Maurin Ahanhanzo
+2020
+:::
+
+:::
+
+:::
+
+
+::: {.cara-section .cara-older-section}
+
+<details>
+<summary>Supervisions plus anciennes</summary>
+
+::: {.cara-old-supervisions}
+
+- Potvin, Jean-Mathieu (2019), « [Tarification du risque d’inondation selon une approche hiérarchique basée sur la physique]() », dir. : Mathieu Boudreault et Mathieu Pigeon, mémoire. Montréal (Québec, Canada), Université du Québec à Montréal, Maîtrise en mathématiques.
+
+- Duval, Francis (2018), « [Technique de Gradient Boosting pour la modélisation des réserves individuelles en assurance non-vie](https://archipel.uqam.ca/13403/) », dir. : Mathieu Pigeon, mémoire. Montréal (Québec, Canada), Université du Québec à Montréal, Maîtrise en mathématiques.
+
+- Turcotte, Roxane (2018), « [Analyse de l’impact de la dépendance sur l’évaluation individuelle des réserves en assurances IARD](https://corpus.ulaval.ca/server/api/core/bitstreams/aaa5540b-52a9-4821-aa4d-b2dd378b3ac5/content) », dir. : Hélène Cossette et Mathieu Pigeon, mémoire. Québec (Québec, Canada), Université Laval, Maîtrise en actuariat.
+
+- Ghasemivanani, Zahra (2018), « [Modélisation des réserves en assurance I.A.R.D. : utilisation de méthodes robustes](https://archipel.uqam.ca/11329/) », dir. : Mathieu Pigeon, mémoire. Montréal (Québec, Canada), Université du Québec à Montréal, Maîtrise en mathématiques.
+
+- Forest-Désaulniers, Jean-François (2018), « [Modèles de chaînes de Markov cachées et de chaînes de Markov couples appliqués au nombre de défauts en risque de crédit](https://archipel.uqam.ca/11950/) », dir. : Jean-Philippe Boucher et Mathieu Boudreault, mémoire. Montréal (Québec, Canada), Université du Québec à Montréal, Maîtrise en mathématiques.
+
+- Rostand Koetz, Carlos Felipe (2018), « [Analyse et évaluation de la méthode de tarification a posteriori avec les données de panel](https://archipel.uqam.ca/11765/) », dir. : Jean-Philippe Boucher, mémoire. Montréal (Québec, Canada), Université du Québec à Montréal, Maîtrise en mathématiques.
+
+- Zerrouk, Leila (2017), « [Méthodes d’approximation de la densité Tweedie et applications en actuariat](https://archipel.uqam.ca/10507/) », dir. : Jean-Philippe Boucher et Michel Adès, mémoire. Montréal (Québec, Canada), Université du Québec à Montréal, Maîtrise en mathématiques.
+
+- Alepin, Gabriel (2017), « [Modélisations non-paramétriques de la fréquence en assurance automobile](https://archipel.uqam.ca/12450/) », dir. : Jean-Philippe Boucher, mémoire. Montréal (Québec, Canada), Université du Québec à Montréal, Maîtrise en mathématiques.
+
+- Yanez, Juan Sebastian (2017), « [Modélisation individuelle des réserves en assurance I.A.R.D. : distribution Tweedie multivariée avec choc commun](https://archipel.uqam.ca/10640/) », dir. : Mathieu Pigeon, mémoire. Montréal (Québec, Canada), Université du Québec à Montréal, Maîtrise en mathématiques.
+
+- Abdallah, Anas (2016), « [Modèles de dépendance hiérarchique pour l’évaluation des passifs et la tarification en actuariat](https://corpus.ulaval.ca/entities/publication/3a3db97f-142d-496e-99b2-a0fc46d76599) », dir. : Hélène Cossette et Jean-Philippe Boucher, thèse. Québec (Québec, Canada), Université Laval, Doctorat en actuariat.
+
+- Côté, Steven (2016), « [Modèles additifs généralisés dans la modélisation de l’impact du kilométrage et de l’exposition au risque en assurance automobile](https://archipel.uqam.ca/9003/) », dir. : Jean-Philippe Boucher, mémoire. Montréal (Québec, Canada), Université du Québec à Montréal, Maîtrise en mathématiques.
+
+- Doucet, Etienne (2014), « [Estimateurs à noyau et théorie des valeurs extrêmes : comparaison de leur pouvoir prédictif dans l’analyse du coût des réclamations en assurance automobile](https://archipel.uqam.ca/6400/) », dir. : Jean-Philippe Boucher, mémoire. Montréal (Québec, Canada), Université du Québec à Montréal, Maîtrise en mathématiques.
+
+- Couture-Piché, Guillaume (2014), « [Modélisation de l’exposition au risque en assurance automobile par un processus de files d’attente](https://archipel.uqam.ca/14187/) », dir. : Jean-Philippe Boucher, mémoire. Montréal (Québec, Canada), Université du Québec à Montréal, Maîtrise en mathématiques.
+
+- Rafi, Selwa (2013), « [Analyse du risque de crédit]() », dir. : Jean-Philippe Boucher et Mathieu Boudreault, Université du Québec à Montréal, stage postdoctoral.
+
+- Inoussa, Rofick (2012), « [Approche statistique de calibration des systèmes bonus-malus en assurance automobile](https://archipel.uqam.ca/5306/) », dir. : Jean-Philippe Boucher, mémoire. Montréal (Québec, Canada), Université du Québec à Montréal, Maîtrise en mathématiques.
+
+- Davidov, Danaïl (2009), « [Modélisation de la variance dans l’analyse stochastique du passif des polices](https://archipel.uqam.ca/2471/) », dir. : Jean-Philippe Boucher, mémoire. Montréal (Québec, Canada), Université du Québec à Montréal, Maîtrise en mathématiques.
+
+:::
+
+</details>
+
+:::
+
+:::

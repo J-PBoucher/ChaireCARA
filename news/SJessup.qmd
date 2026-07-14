@@ -1,0 +1,16 @@
+---
+title: "Sébastien Jessup remporte un prix de la meilleure présentation de recherche étudiante lors la conférence annuelle de la SSC"
+subtitle: "Pour la présentation intitulée « Seuils de valeurs extrêmes robustes en utilisant l'aggrégation de modèles généralisés bayésiens » "
+date: "06/16/2024"
+image: ../img/prix.jpg
+about:
+  template: broadside
+  id: about-block
+  image: ../img/prix.jpg
+  image-shape: round
+---
+
+Sébastien Jessup remporte le Prix du **groupe de science actuarielle** 2024 pour la meilleure présentation de recherche étudiante pour la présentation intitulée « Seuils de valeurs extrêmes robustes
+en utilisant l'aggrégation de modèles généralisés bayésiens » lors la conférence annuelle de la Société Statistique du Canada (SSC). 
+
+[Détails à propos du prix](https://ssc.ca/fr/congres/annuel/congres-annuel-ssc-2024-a-st-johns/prix-pour-presentations-recherche-etudiantes-2024)

@@ -1,0 +1,16 @@
+---
+title: "Sébastien Jessup remporte le prix Jose Garrido de l'Université Concordia, pour la meilleure thèse de doctorat en actuariat"
+subtitle: "Pour sa thèse intitulée « Advancements in model combination and uncertainty quantification with applications in actuarial science » "
+date: "11/18/2025"
+image: ../img/prixphd.jpg
+about:
+  template: broadside
+  id: about-block
+  image: ../img/prixphd.jpg
+  image-shape: round
+---
+
+<div class="these">
+Jessup, Sébastien (2024), « [Advancements in model combination and uncertainty quantification with applications in actuarial science](https://spectrum.library.concordia.ca/id/eprint/994722/) »,  Dir.: Mélina Mailhot et Mathieu Pigeon, Thèse de doctorat. Montréal (Québec, Canada), Université Concordia, Doctorat en mathématiques.
+</div>
+

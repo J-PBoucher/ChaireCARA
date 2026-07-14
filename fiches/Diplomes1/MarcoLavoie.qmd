@@ -1,0 +1,144 @@
+---
+title: Marco Lavoie, MSc.
+subtitle: |
+  | Maitrise en mathématiques, 
+  | UQAM
+image: ../../img/MLavoie.jpg
+description: "2024/09"
+toc: TRUE
+---
+
+```{r echo = FALSE, results = "asis",  message=FALSE, warning=FALSE}
+
+name = "M.Lavoie"
+
+```
+
+
+
+:::: {.columns}
+
+::: {.column width="65%"}
+
+**Direction de recherche**:  
+
+- Jean-Philippe Boucher, professeur au Département de mathématiques de l’Université du Québec à Montréal  
+
+**Mémoire de maitrise**:
+
+Lavoie, Marco (2024), « Modèles statistiques de surveillance de maladies infectieuses appliqués aux vols d'automobiles » Dir.: Jean-Philippe Boucher, Mémoire. Montréal (Québec, Canada), Université du Québec à Montréal, Maîtrise en mathématiques.  
+
+*Ce mémoire explore l’application de modèles statistiques de surveillance des maladies infectieuses aux vols
+de voitures dans le but de fournir des outils analytiques pour les compagnies d’assurance. Les modèles Farrington
+et GLR (Generalized Likelihood Ratio) sont examinés pour détecter des anomalies dans les données
+de vols de véhicules, permettant ainsi une gestion proactive de l’assureur pour limiter les vols. Le modèle
+Farrington utilise un sous-ensemble de données historiques pour prédire les occurrences et fixer des seuils
+d’alerte, tandis que le modèle GLR, plus récent, intègre toutes les données disponibles dans un modèle
+paramétrique qui capture la saisonnalité. De plus, pour améliorer la qualité de prédiction, des variables
+explicatives propres aux assurés sont ajoutées dans le modèle GLR. Les résultats montrent que les deux
+modèles sont efficaces pour détecter des valeurs aberrantes, mais que l’approche GLR est plus robuste et
+adaptative. En intégrant ces modèles dans leurs systèmes de gestion des risques, les compagnies d’assurance
+peuvent améliorer leur réactivité et développer des stratégies pour minimiser les pertes dues aux
+vols de voitures. Cette étude souligne l’importance de l’adaptation continue des modèles aux spécificités
+des données et des tendances de marché pour optimiser leur utilisation en assurance automobile.*
+
+
+:::
+
+::: {.column width="2%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="30%"}
+![](../../img/MLavoie.jpg)
+:::
+
+::: {.column width="3%"}
+<!-- empty column to create gap -->
+:::
+
+::::
+
+
+<!-- XXXXXXXXXXXXXXXXXXX Code plus bas XXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+
+```{r echo = FALSE, results = "asis",  message=FALSE, warning=FALSE}
+
+library(dplyr)
+library(toastui)
+library(DT)
+library(lubridate)
+library(anytime)
+library(stringr)
+
+load('../../rda_files/Publis.Rda')
+load('../../rda_files/Presentations.Rda')
+load('../../rda_files/Preslocales.Rda')
+load('../../rda_files/bycours.Rda')
+load('../../rda_files/Autres.Rda')
+
+source('../../Fonctions.R')
+
+
+###
+
+Publis <- Publis %>% 
+  filter(Auteur1 == name | Auteur2 == name | Auteur3 == name | Auteur4 == name | Auteur5 == name | Auteur6 == name) 
+Presentations <- Presentations %>%
+  filter(Presentateur == name)
+PresLocales <- PresLocales %>%
+  filter(Presentateur == name)
+Cours <- bycours %>%
+  filter(Nom == name & Tache == 'Enseignant')
+Demo <- bycours %>%
+  filter(Nom == name & Tache == 'Demonstrateur')
+Autres <- Autres %>%
+    filter(Nom == name)
+
+```
+
+```{r echo = FALSE, results = "asis",  message=FALSE, warning=FALSE}
+
+if(nrow(Publis) >0) printPublis(Publis)
+
+```
+
+```{r echo = FALSE, results = "asis",  message=FALSE, warning=FALSE}
+
+if(nrow(Presentations) >0) printPres(Presentations)
+
+```
+
+```{r echo = FALSE, results = "asis",  message=FALSE, warning=FALSE}
+
+if(nrow(Cours)+nrow(Demo)+nrow(PresLocales)+nrow(Autres) > 0){
+  cat("## Implications 
+      ")
+}
+```
+
+```{r echo = FALSE, results = "asis",  message=FALSE, warning=FALSE}
+
+if(nrow(PresLocales) >0) printPresLocales(PresLocales)
+
+```
+
+```{r echo = FALSE, results = "asis",  message=FALSE, warning=FALSE}
+
+if(nrow(Cours) >0) printCours(Cours)
+
+```
+
+```{r echo = FALSE, results = "asis",  message=FALSE, warning=FALSE}
+
+if(nrow(Demo) >0) printDemo(Demo)
+
+```
+
+```{r echo = FALSE, results = "asis",  message=FALSE, warning=FALSE}
+
+if(nrow(Autres) >0) printAutres(Autres)
+
+```
+
+

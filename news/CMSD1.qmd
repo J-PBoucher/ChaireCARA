@@ -1,0 +1,26 @@
+---
+title: Première édition de la Compétition Montréalaise en Sciences des Données (CMSD) 
+subtite: "La Chaire CARA et Co-operators invitent les étudiants en mathématiques à participer à la première édition de la Compétition Montréalaise en Sciences des Données le 7 mai 2022."
+date: 2022-05-07
+toc: TRUE
+---
+
+:::: {.columns}
+
+::: {.column width="65%"}
+La Chaire CARA et Co-operators invitent les étudiants en mathématiques de l'Université de Montréal, de l'UQAM | Université du Québec à Montréal, de McGill University et de Université Concordia à participer à la première édition de la Compétition Montréalaise en Sciences des Données le 7 mai 2022.
+:::
+
+::: {.column width="2%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="30%"}
+![](../../img/1erecomp.jpg)
+:::
+
+::: {.column width="3%"}
+<!-- empty column to create gap -->
+:::
+
+::::

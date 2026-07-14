@@ -1,0 +1,97 @@
+project:  
+  type: website
+  pre-render: load.R
+  output-dir: www
+  
+  preview: 
+    port: 22222
+    browser: true
+    watch-inputs: true
+    navigate: true
+
+lang: fr-FR
+website:
+  title: "Chaire CARA"
+  favicon: img/favicon2.png
+  navbar:
+    pinned: true
+    #logo: img/logo_UQAM_ChaireCo-operators_renverse.png
+    background: rgb(34, 57, 88)
+    left:
+      - text: "Accueil"        
+        href: index.html
+        
+      - text: "À propos"        
+        menu:
+          - text: "Qui sommes-nous?"
+            href: quisommesnous.html
+          - text: "Comités"
+            href: comites.html
+          - text: "Nous joindre"
+            href: NousJoindre.html
+
+      - text: "Équipe"        
+        menu:
+          - text: "Membres et étudiant(e)s"        
+            href: equipe.html   
+          - text: "Étudiant(e)s diplômé(e)s"        
+            href: anciens.html   
+
+      - text: "Nouvelles"        
+        href: nouvelles.html
+
+      - text: "Publications"
+        menu:
+          - text: "Articles"
+            href: publications.html
+          - text: "Projets de recherche"
+            href: projets.html
+          - text: "Présentations"
+            href: presentations.html
+          - text: "Thèses et mémoires"
+            href: ThesesMemoires.html
+          - text: "Notes de cours"        
+            href: books.html
+            
+      - text: "Intégrer la Chaire"        
+        menu:
+          - text: "Bourses d'étude" 
+            href: bourses.html
+          - text: "Stage de 1er cycle"        
+            href: BSc.html
+          - text: "Études de maitrise"        
+            href: MSc.html
+          - text: "Études de doctorat"        
+            href: PhD.html
+
+
+
+  search: 
+    location: navbar
+    type: textbox
+  page-footer: 
+    left: |
+      <span class="faux-block">
+        &#169; 2022–<script>document.write(new Date().getFullYear())</script>
+        Jean-Philippe Boucher – Chaire CARA
+      </span>
+    right: |
+      <span class="faux-block"><a href="https://github.com/J-PBoucher">View source on GitHub</a></span>
+
+execute:
+  freeze: false
+
+
+format:
+  html: 
+    grid:
+      sidebar-width: 300px
+      body-width: 1500px
+      margin-width: 300px
+      gutter-width: 1.5rem
+    fontsize: 1.1em
+    theme: 
+      light: sandstone
+    css: custom.css  
+    toc: true
+    sidebar: true

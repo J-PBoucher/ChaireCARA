@@ -1,0 +1,55 @@
+---
+title: Soutenance de doctorat de Raissa Coulibaly
+date: 2026-06-23
+subtitle: "Expérience d’assurance et durée de couverture dans la tarification sous une loi de Tweedie"
+image: ../../img/AvisSoutenance3.png
+toc: TRUE
+---
+
+:::: {.columns}
+
+::: {.column width="65%"}
+
+**Direction de recherche**:  
+
+- Jean-Philippe Boucher, professeur au Département de mathématiques de l’Université du Québec à Montréal  
+
+**Jury d’évaluation**:  
+
+- Mélina Mailhot, professeure au Département de mathématiques et statistiques de l’Université Concordia  
+- Philippe Gagnon, professeur au Département de mathématiques et de statistique de l'Université de Montréal  
+- Mathieu Pigeon, professeur au Département de mathématiques de l’Université du Québec à Montréal  
+- Jean-Philippe Boucher, professeur au Département de mathématiques de l’Université du Québec à Montréal  
+
+**Représentant du doyen**:
+
+- Doris Jeannotte, professeure au Département de mathématiques de l’Université du Québec à Montréal
+
+**Date de soutenance**:
+
+- Le mardi 23 juin 2026 à 10h00
+
+**Endroit**:
+
+Université du Québec à Montréal    
+Pavillon Président-Kennedy    
+Salle PK-2265    
+201, avenue du Président-Kennedy    
+Montréal (Québec)    
+
+
+:::
+
+::: {.column width="2%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="30%"}
+![](../../img/RC.png)
+:::
+
+::: {.column width="3%"}
+<!-- empty column to create gap -->
+:::
+
+::::

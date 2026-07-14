@@ -1,0 +1,21 @@
+---
+title: L’UQAM crée la Chaire Co-operators en analyse des risques actuariels
+subtitle: "Dans le cadre de la campagne majeure 100 millions d’idées, Co-operators fait une contribution financière de 500 000 dollars qui permettra la création de la Chaire Co-operators en analyse des risques actuariels (CARA) à l’UQAM. Le titulaire de la Chaire sera Jean-Philippe Boucher, professeur au Département de mathématiques."
+date: 2018-05-30
+image: ../img/actuariat_7675.jpg
+about:
+  template: broadside
+  id: about-block
+  image: ../img/actuariat_7675.jpg
+  image-shape: round
+---
+
+L’UQAM crée la Chaire Co-operators en analyse des risques actuariels grâce à une contribution financière de 500 000 dollars.
+
+Dans le cadre de la campagne majeure 100 millions d’idées, Co-operators fait une contribution financière de 500 000 dollars qui permettra la création de la Chaire Co-operators en analyse des risques actuariels (CARA) à l’UQAM. Le titulaire de la Chaire sera Jean-Philippe Boucher, professeur au Département de mathématiques.
+
+Grâce à cette collaboration, la Chaire pourrait devenir un pôle de recherche de renommée internationale dans la science actuarielle, plus particulièrement dans la conceptualisation, la quantification et l’estimation des risques en assurance de dommages. «Les larges bases de données du monde de l’assurance contiennent énormément d’informations pouvant être utilisées par des modèles avancés de prévision, pour mieux segmenter les risques selon les assurés ou mieux comprendre les incitatifs à la réclamation, mentionne Jean-Philippe Boucher. Utiliser ces sources de façon optimale est l’un des défis majeurs de l’actuariat.» En plus de faire de la recherche appliquée, la Chaire permettra de former des diplômés qualifiés, aptes à intégrer des places de choix dans les départements de recherche des institutions financières et compagnies d’assurance.
+
+(...)
+
+A lire sur [Actualités UQAM](https://actualites.uqam.ca/2018/creation-chaire-co-operators-analyse-risques-actuariels/)

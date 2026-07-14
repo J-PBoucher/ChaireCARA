@@ -1,0 +1,28 @@
+---
+title: Atelier de recherche sur la tarification avec données télématiques
+subtitle: "L’atelier se voulait être la conclusion du séminaire de doctorat MAT9998H Séminaire de statistique: Sujets avancés en tarification IARD donné par le professeur Jean-Philippe Boucher lors de la session d’hiver 2019."
+date: 2019-04-12
+toc: TRUE
+---
+
+:::: {.columns}
+
+::: {.column width="65%"}
+
+Le 12 avril 2019 avait lieu le premier atelier de la Chaire (CARA). L’atelier se voulait être la conclusion du séminaire de doctorat MAT9998H Séminaire de statistique: Sujets avancés en tarification IARD donné par le professeur Jean-Philippe Boucher lors de la session d’hiver 2019. Le séminaire portait sur le traitement des données télématiques en assurance automobile. Une table ronde avec étudiants, chercheurs et praticiens a eu lieu, suivi d’une présentation de Emiliano A. Valdez et Banghee So de l’Université du Connecticut.
+
+:::
+
+::: {.column width="2%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="30%"}
+![](../../img/1erAtelier.png)
+:::
+
+::: {.column width="3%"}
+<!-- empty column to create gap -->
+:::
+
+::::

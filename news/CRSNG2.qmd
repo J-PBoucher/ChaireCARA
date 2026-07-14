@@ -1,0 +1,19 @@
+---
+title: La Chaire reçoit un nouveau financement du CRSNG
+subtitle: "Des modèles mathématiques pour mieux gérer les risques en assurance"
+date: 2025-09-22
+image: ../img/CRSNG2.jpg
+about:
+  template: broadside
+  id: about-block
+  image: ../img/CRSNG2.jpg
+  image-shape: round
+---
+
+La Chaire Co-operators en analyse des risques actuariels (CARA), dirigé par le professeur du Département de mathématiques Jean-Philippe Boucher, a obtenu une subvention de 850 000 dollars pour un projet intitulé Adaptabilité des modèles en assurance incendie, accidents et risques divers. La subvention a été octroyée à Jean-Philippe Boucher et à son collègue Mathieu Pigeon dans le cadre du programme Alliance du Conseil de recherches en sciences naturelles et en génie du Canada (CRSNG), qui finance le projet à hauteur de 566 711 \$. Le Groupe Co-operators, une coopérative canadienne spécialisée en assurance et en services financiers, octroie 283 455 \$.
+
+Le projet vise à développer des modèles mathématiques qui permettront de mieux saisir l’état actuel et les tendances futures en matière d’assurance incendie, accidents et risques divers (IARD). Ces modèles visent à aider l’assureur à gérer et à absorber les risques, à offrir des produits compétitifs et adaptés aux besoins des consommateurs ainsi qu’à mieux s’adapter à l’inflation.
+
+(...)
+
+A lire sur [Actualités UQAM](https://actualites.uqam.ca/2025/actuariat-assurance-crsng/)

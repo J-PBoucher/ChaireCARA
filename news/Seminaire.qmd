@@ -1,0 +1,35 @@
+---
+title: Séminaire d'été d'actuariat et de statistiques
+subtitle: "Rejoignez-nous tous les mercredis de 11h à 12h au local PK-2605 pour un séminaire d’été!"
+date: 2023-05-01
+toc: TRUE
+---
+
+:::: {.columns}
+
+::: {.column width="65%"}
+
+Vous aimez l’actuariat, les statistiques, les probabilités et leurs
+différents domaines d’application? Êtes-vous à l’UQAM cet
+été? Rejoignez-nous tous les mercredis de 11h à 12h au local
+PK-2605 pour un séminaire d’été!
+
+Au programme: des présentations d’étudiant.e.s des
+différents cycles d’étude sur les sujets et problématiques qui
+les passionnent afin de garder contact, le tout de manière
+informelle et festive!
+:::
+
+::: {.column width="2%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="30%"}
+![](../../img/SeminaireStatActu.png)
+:::
+
+::: {.column width="3%"}
+<!-- empty column to create gap -->
+:::
+
+::::

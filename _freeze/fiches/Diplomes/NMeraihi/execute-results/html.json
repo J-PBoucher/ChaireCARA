@@ -1,0 +1,16 @@
+{
+  "hash": "8bc65493e7bf3377a2e84295ec9578eb",
+  "result": {
+    "markdown": "---\ntitle: Noureddine Meraihi, MSc. \nsubtitle: |\n  | Maitrise en mathématiques\ndescription: \"Université du Québec à Montréal, 2019\"\nimage: ../../img/NMeraihi.jpg\ntoc: TRUE\n---\n\n\n\n\n\n\n:::: {.columns}\n\n::: {.column width=\"65%\"}\n\n**Direction de recherche**:  \n\n- Jean-Philippe Boucher, professeur au Département de mathématiques de l’Université du Québec à Montréal  \n\n**Mémoire de maitrise**:\n\nMeraihi, Noureddine (2019), «[Modélisation de la fréquence des sinistres sur les données télématiques par le modèle GBMP](https://archipel.uqam.ca/13722/)», Dir.: Jean-Philippe Boucher, Mémoire. Montréal (Québec, Canada), Université du Québec à Montréal, Maîtrise en mathématiques.\n\n:::\n\n::: {.column width=\"2%\"}\n<!-- empty column to create gap -->\n:::\n\n::: {.column width=\"30%\"}\n![](../../img/NMeraihi.jpg)\n:::\n\n::: {.column width=\"3%\"}\n<!-- empty column to create gap -->\n:::\n\n::::\n\n\n\n\n\n\n\n## Liste des publications scientifiques \n\n\n\n\n\n\n## Présentations scientifiques\n\n\n\n  - **Variable Selection On Telematic Data Using Shap And Gradient Boosting Machine Algorithm**, *Actuarial Research Conference (ARC)*, Indianapolis, USA (IN), 14 août 2019.\n\n\n\n## Autres présentations\n\n\n\n",
+    "supporting": [
+      "NMeraihi_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

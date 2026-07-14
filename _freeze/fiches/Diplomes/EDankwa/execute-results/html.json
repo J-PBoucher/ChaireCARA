@@ -1,0 +1,16 @@
+{
+  "hash": "ec3f1fc1094ba1c1acf040b24bd60551",
+  "result": {
+    "markdown": "---\ntitle: Ernest Dankwa, MSc.\nsubtitle: |\n  | Maitrise en mathématiques\ndescription: \"Université du Québec à Montréal, 2020\"\nimage: ../../img/EDankwa.jpg\ntoc: TRUE\n---\n\n\n\n\n\n\n:::: {.columns}\n\n::: {.column width=\"65%\"}\n\n**Direction de recherche**:  \n\n- Mathieu Pigeon, professeur au Département de mathématiques de l’Université du Québec à Montréal  \n\n**Mémoire de maitrise**:\n\nDankwa, Ernest (2020), « [Modélisation individuelle des réserves en assurance I.A.R.D. basée sur des réseaux de neurones](https://archipel.uqam.ca/14177/) », Dir.: Mathieu Pigeon, Mémoire. Montréal (Québec, Canada), Université du Québec à Montréal, Maîtrise en mathématiques.\n\n:::\n\n::: {.column width=\"2%\"}\n<!-- empty column to create gap -->\n:::\n\n::: {.column width=\"30%\"}\n![](../../img/EDankwa.jpg)\n:::\n\n::: {.column width=\"3%\"}\n<!-- empty column to create gap -->\n:::\n\n::::\n\n\n\n\n\n\n\n## Liste des publications scientifiques \n\n\n\n\n\n\n## Présentations scientifiques\n\n\n\n\n\n\n## Autres présentations\n\n\n\n",
+    "supporting": [
+      "EDankwa_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

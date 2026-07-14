@@ -1,0 +1,121 @@
+---
+page-layout: full
+toc: false
+
+listing:
+  - id: chercheurs-listing
+    contents: fiches/Chercheurs
+    type: grid
+    grid-columns: 4
+    image-height: 2.4in
+    image-align: left
+    sort:
+      - "title"
+    fields: [image, title, subtitle]
+    filter-ui: false
+    sort-ui: false
+    
+  - id: etudiants-listing
+    contents: fiches/Actuels1
+    type: grid
+    grid-columns: 5
+    image-height: 2.3in
+    image-align: left
+    sort:
+      - "title"
+    fields: [image, title, subtitle]
+    filter-ui: false
+    sort-ui: false
+---
+
+::: {.cara-page .cara-team-page}
+
+::: {.cara-team-hero}
+
+::: {.cara-kicker}
+Équipe de recherche
+:::
+
+# Membres de l’équipe
+
+:::
+
+
+::: {.cara-section}
+
+::: {.cara-section-header}
+## Chercheurs et chercheuses
+
+Personnes responsables de l’orientation scientifique, des projets de recherche et de l’encadrement.
+:::
+
+::: {#chercheurs-listing .cara-listing-grid}
+:::
+
+:::
+
+
+::: {.cara-section}
+
+::: {.cara-section-header}
+## Étudiantes et étudiants de cycle supérieur
+
+Membres de la relève contribuant aux travaux de recherche de la Chaire.
+:::
+
+::: {#etudiants-listing .cara-listing-grid}
+:::
+
+:::
+
+
+::: {.cara-section}
+
+::: {.cara-section-header}
+## Collaborateurs et collaboratrices
+
+Collaborations universitaires et scientifiques externes.
+:::
+
+::: {.cara-collab-grid}
+
+::: {.cara-collab-card}
+### [Anas Abdallah](https://experts.mcmaster.ca/display/abdala20)
+
+Professeur, Département de mathématiques et de statistique  
+Université McMaster
+:::
+
+::: {.cara-collab-card}
+### [Hélène Cossette](https://www.fsg.ulaval.ca/corps-professoral/helene-cossette)
+
+Professeure, École d’actuariat  
+Université Laval
+:::
+
+::: {.cara-collab-card}
+### [Anne MacKay](https://www.usherbrooke.ca/mathematiques/nous-joindre/personnel/corps-professoral/professeurs/anne-mackay)
+
+Professeure, Département de mathématiques  
+Université de Sherbrooke
+:::
+
+::: {.cara-collab-card}
+### [Mélina Mailhot](https://www.concordia.ca/faculty/melina-mailhot.html)
+
+Professeure, Département de mathématiques et statistique  
+Université Concordia
+:::
+
+::: {.cara-collab-card}
+### [Etienne Marceau](https://www.fsg.ulaval.ca/corps-professoral/etienne-marceau)
+
+Professeur, École d’actuariat  
+Université Laval
+:::
+
+:::
+
+:::
+
+:::

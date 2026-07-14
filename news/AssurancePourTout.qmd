@@ -1,0 +1,21 @@
+---
+title: Développement d'un produit d'assurance novateur
+subtitle: "Les professeurs Jean-Philippe Boucher et Mathieu Pigeon, du Département de mathématiques, viennent d’obtenir une subvention de 653 500 dollars du Conseil de recherches en sciences naturelles et en génie du Canada (CRSNG) afin d'amorcer un projet de recherche."
+date: 2018-09-01
+image: ../img/AutoHabit.png
+about:
+  template: broadside
+  id: about-block
+  image: ../img/AutoHabit.png
+  image-shape: rectangle
+---
+
+Les professeurs Jean-Philippe Boucher et Mathieu Pigeon, du Département de mathématiques, viennent d’obtenir une subvention de 653 500 dollars du Conseil de recherches en sciences naturelles et en génie du Canada (CRSNG) afin d'amorcer un projet de recherche dans le cadre de la Chaire Co-operators en analyse des risques actuariels. Il s'agit de développer un produit novateur offrant au client la possibilité d'englober la totalité de ses besoins actuels et futurs en assurance de biens.
+
+«Il existe un déficit d'assurance au Canada, constate Jean-Philippe Boucher, titulaire de la Chaire Co-operators en analyse des risques actuariels. Les produits présentement offerts sur le marché sont offerts à la pièce. Conséquemment, pour obtenir une protection complète de ses biens, un assuré doit se procurer plusieurs produits d'assurance distincts pour chacun des biens qu'il veut protéger – par exemple son automobile, sa résidence principale, son chalet – et il doit rester en constante communication avec son assureur pour lui indiquer s'il y a des changements dans la protection demandée.»
+
+Avec le nouveau produit que souhaitent développer les deux chercheurs, l'assuré n'aurait plus à avertir son assureur chaque fois qu'une modification à sa situation serait susceptible d'avoir une incidence sur son contrat d'assurance: tous ses biens seraient automatiquement couverts par une prime d'assurance annuelle unique. «Selon notre partenaire Co-operators, il s'agit de l'avenir de l'assurance», souligne le titulaire de la chaire.
+
+Ce projet, qui pose de réels défis théoriques, techniques et pratiques pour la science actuarielle, s'articulera en trois axes distincts, note Jean-Philippe Boucher. «L'axe de recherche tarification aura pour objectif de fixer une prime pour le produit d'assurance global en fonction de divers profils d'assurés, l'axe provisionnement et diversification de quantifier et de gérer le passif d'assurance engendré par ce produit, et l'axe de recherche valeur-client d'évaluer la rentabilité à court et à long terme de ce produit.»
+
+Le montant obtenu du CRSNG s'ajoute à la contribution initiale de 500 000 dollars de Co-operators, qui a permis de mettre la Chaire sur pied au printemps dernier. «Ces montants nous permettront d'offrir des bourses à une quinzaine d'étudiants de cycles supérieurs en actuariat qui prendront part au projet de recherche», précise le professeur.

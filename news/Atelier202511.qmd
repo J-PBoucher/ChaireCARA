@@ -1,0 +1,29 @@
+---
+title: Atelier de recherche avec le professeur Anas Abdallah (McMaster University)
+subtitle: "Atelier de recherche avec les chercheurs de la Chaire et des employés de Co-operators au sujet des modèles de tarification."
+date: 2025-11-27
+image: ../../img/Atelier202511.png
+toc: TRUE
+---
+
+
+:::: {.columns}
+
+::: {.column width="65%"}
+
+Atelier de recherche avec les chercheurs de la Chaire et des employés de Co-operators à propos de modèles en tarification.  Présentations de Anas Abdallah de l'Université McMaster, de Etienne Larrivée-Hardy de Co-operators et de Sébastien Jessup, post-doctorant à l'Université de Waterloo.
+:::
+
+::: {.column width="2%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="30%"}
+![](../../img/Atelier202511.png)
+:::
+
+::: {.column width="3%"}
+<!-- empty column to create gap -->
+:::
+
+::::

@@ -1,0 +1,19 @@
+.quarto-title-block .quarto-title-banner {
+  background-size: 300px;
+  background-position: left;
+  background-repeat: no-repeat;
+  padding-left: 0px;
+  background-origin: content-box;
+}
+
+.title {
+  color: #574F43;
+}
+
+.subtitle {
+  color: #574F43;
+}
+
+.description {
+  color: #574F43;
+}

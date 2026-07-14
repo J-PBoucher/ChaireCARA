@@ -1,0 +1,36 @@
+---
+title: "Séminaire Quantact en mathématiques actuarielles et financières" 
+subtitle: |
+  | A non-parametric estimator for Archimedean copulas under flexible censoring scenarios and an application to claims reserving
+  | Marie Michaelides, UQAM 
+date: 2024-02-09
+toc: TRUE
+image: ../../img/PlainQuantact.png
+---
+  
+   
+:::: {.columns}
+
+::: {.column width="65%"}
+UNIVERSITÉ LAVAL  
+Pavillon Adrien-Pouliot, local PLT-2750  
+Lien zoom : https://ulaval.zoom.us/j/69121043172?pwd=MjlubWlvSFNsYmoreHY0NkF5QkF2dz09  
+ID de réunion : 691 2104 3172  
+Code secret : 796106
+
+:::
+
+
+::: {.column width="2%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="30%"}
+![](../../img/MMQuantact.png)
+:::
+
+::: {.column width="3%"}
+<!-- empty column to create gap -->
+:::
+
+::::

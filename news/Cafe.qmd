@@ -1,0 +1,33 @@
+---
+title: Présentation de la Chaire Co-operators en analyse des risques actuariels
+subtitle: "Midi-rencontre avec les chercheurs et étudiants de la Chaire, et l'équipe de recherche de Co-operators."
+date: 2020-03-18
+toc: TRUE
+---
+
+:::: {.columns}
+
+::: {.column width="65%"}
+
+Midi-rencontre avec les chercheurs et étudiants de la Chaire, et l'équipe de recherche de Co-operators.
+
+- Présentation de la Chaire, 
+- offres de stages de recherche et stages en entreprise,
+- Café et pizzas!
+
+
+:::
+
+::: {.column width="2%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="30%"}
+![](../../img/Cafe.png)
+:::
+
+::: {.column width="3%"}
+<!-- empty column to create gap -->
+:::
+
+::::

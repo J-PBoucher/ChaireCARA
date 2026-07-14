@@ -1,0 +1,16 @@
+{
+  "hash": "be0ff240c994e1c54bf891b62ebd72a1",
+  "result": {
+    "markdown": "---\ntitle: Iro Kouarfate\nsubtitle: |\n  | Doctorat en mathématiques\ndescription: 'Université de Sherbrooke'  \nimage: ../../img/IKouarfate.jpg\ntoc: TRUE\n---\n\n\n\n\n\n\n:::: {.columns}\n\n::: {.column width=\"65%\"}\n\n**Direction de recherche**:  \n\n- Mathieu Pigeon, professeur au Département de mathématiques de l’Université du Québec à Montréal  \n- Anne MacKay, professeure au Département de mathématique de l’Université Sherbrooke  \n\n:::\n\n::: {.column width=\"2%\"}\n<!-- empty column to create gap -->\n:::\n\n::: {.column width=\"30%\"}\n![](../../img/IKouarfate.jpg)\n:::\n\n::: {.column width=\"3%\"}\n<!-- empty column to create gap -->\n:::\n\n::::\n\n\n\n\n\n\n\n## Liste des publications scientifiques \n\n\n  \n  - I. Kouarfate, A. Mackay & M. Pigeon (2024), <a href='' target='_blank'>Application de l’informatique quantique au calcul des réserves individuelles à l’aide d’arbres de classification et de régression</a>, *[Projet en cours]* \n  \n    *Une fois que la technologie sera au point, on prévoit que les ordinateurs quantiques seront capables de résoudre certains problèmes beaucoup plus rapidement que les ordinateurs classiques. Les applications potentielles de l’informatique quantique sont nombreuses, et la finance quantique est un sujet de recherche émergent qui suscite un grand intérêt de la part des universitaires et de l’industrie. Dans ce contexte, il est essentiel d’étudier comment l’informatique quantique peut être utilisée dans le secteur de l’assurance. En particulier, les companies d’assurances I.A.R.D. sont confrontées à une forte volatilité en raison de la nature des sinistres qu’elles doivent couvrir. La règlementation leur impose donc de maintenir des fonds afin de garantir que, jusqu’à un certain niveau de risque, il n’y aura pas de problème de solvabilité. Au cours des vingt dernières années, des approches individuelles ont souvent été étudiées dans la littérature et mises en oeuvre dans les compagnies pour évaluer le niveau de provisionnement requis. Plusieurs de ces méthodes sont basées sur l’apprentissage statistique et présentent des défis en terme de capacité de calcul. Dans ce projet, nous nous concentrons sur les approches basées sur les arbres binaires. Nous proposons une mise en oeuvre quantique dans le cadre de la modélisation individuelle des réserves. Pour réduire le temps de calcul résultant de la présence de nombreuses variables explicatives catégorielles, nous utiliserons la représentation des arbres de classification binaires avec des caractéristiques binaires comme des circuits quantiques proposées par [HEE22]. Pour assurer la reproductibilité des résultats, nous travaillerons sur des données simulées.*  \n  \n\n\n## Présentations scientifiques\n\n\n\n\n\n\n## Autres présentations\n\n\n\n",
+    "supporting": [
+      "IroKouarfate_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

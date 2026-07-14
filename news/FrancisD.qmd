@@ -1,0 +1,29 @@
+---
+title: "Séminaire des étudiants de la Chaire CARA"
+subtitle: |
+  | Optimisez vos diapositives de présentation avec xaringan
+  | Francis Duval, UQAM 
+date: 2023-03-22
+toc: TRUE
+---
+
+:::: {.columns}
+
+::: {.column width="65%"}
+
+:::
+
+
+::: {.column width="2%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="30%"}
+![](../../img/FrancisD.png)
+:::
+
+::: {.column width="3%"}
+<!-- empty column to create gap -->
+:::
+
+::::

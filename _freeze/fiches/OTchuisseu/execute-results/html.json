@@ -1,0 +1,14 @@
+{
+  "hash": "cdab2034458f48b9885448e0d1ae5ced",
+  "result": {
+    "markdown": "---\ntitle: Orélien Tchuisseu\nsubtitle: |\n  | Étudiante au doctorat en actuariat\n  | Université Laval\nimage: ../img/OTchuisseu.jpg\ntoc: TRUE\n---\n\n\n\n\n\n\n:::: {.columns}\n\n::: {.column width=\"65%\"}\n\n**Direction de recherche**:  \n\n- Etienne Marceau, professeur à l'École d'actuariat de l'Université Laval  \n- Hélène Cossette, professeure à l'École d'actuariat de l'Université Laval  \n- Jean-Philippe Boucher, professeur au Département de mathématiques de l’Université du Québec à Montréal  \n\n:::\n\n::: {.column width=\"2%\"}\n<!-- empty column to create gap -->\n:::\n\n::: {.column width=\"30%\"}\n![](../img/OTchuisseu.jpg)\n:::\n\n::: {.column width=\"3%\"}\n<!-- empty column to create gap -->\n:::\n\n::::\n\n\n\n\n\n\n\n## Liste des publications scientifiques \n\n\n  \n  - O. Tchuisseu, E. Marceau, H. Cossette, J.-P. Boucher,  &  (2024), <a href='' target='_blank'>Modeling property fire losses using a methodology based on random graphs</a>, *[Projet en cours]* \n  \n    *Property insurance stands as an imperative for homeowners across the board. Regardless of whether they own residential or commercial properties, their real estate holdings form a substantial part of their overall assets. Such assets are not easily replaceable, and sometimes not at all, in the absence of insurance coverage. Among the pivotal facets of property insurance, the focus on fire risk looms large – that is, the possibility of damage to a building, in part or in entirety, in the event of a fire. This study centers on the investigation of the extent of such losses. The severity of losses attributed to fire risk is frequently characterized through the MBBEFD distribution, albeit in a heuristic manner. Despite this, there is a notable absence of a model for assessing loss severity from first principles. Within the scope of this study, we endeavor to fill this void by crafting a model and conducting an exploratory analysis. This model dissects the progression of a fire within a house. *  \n  \n\n\n\n## Présentations scientifiques\n\n\n\n\n\n\n## Autres présentations\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

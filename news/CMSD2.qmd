@@ -1,0 +1,32 @@
+---
+title: Deuxième édition de la Compétition Montréalaise en Sciences des Données (CMSD) 
+subtitle: "La Chaire CARA et Co-operators invitent les étudiants en mathématiques à participer à la seconde édition de la Compétition Montréalaise en Sciences des Données le 7 mai 2022."
+date: 2023-09-30
+image: ../../img/2ecomp.png
+toc: TRUE
+---
+
+:::: {.columns}
+
+::: {.column width="65%"}
+La Compétition Montréalaise en Sciences des Données (CMSD) est une compétition annuelle pour les étudiants passionnés des sciences des données. Elle rassemble des étudiants voulant tester leurs capacités à résoudre une problématique sur des données d’assurance.
+
+La prochaine compétition aura lieu sur le campus de l'UQAM, à Montréal le 30 septembre 2023. 
+
+La CMSD est un partenariat entre Co-operators et la Chaire de recherche Co-operators en analyse des risques actuariels de l’UQAM.
+
+:::
+
+::: {.column width="2%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="30%"}
+![](../../img/2ecomp.png)
+:::
+
+::: {.column width="3%"}
+<!-- empty column to create gap -->
+:::
+
+::::

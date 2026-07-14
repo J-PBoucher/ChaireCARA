@@ -1,0 +1,16 @@
+{
+  "hash": "09dbe95053d98c2a52661f73b146ec37",
+  "result": {
+    "markdown": "---\ntitle: Christina Oueini, MSc. \nsubtitle: |\n  | Maitrise en mathématiques\nimage: ../../img/COueini.jpg\ndescription: \"Université du Québec à Montréal, 2023\"\ntoc: TRUE\n---\n\n\n\n\n\n\n:::: {.columns}\n\n::: {.column width=\"65%\"}\n\n**Direction de recherche**:  \n\n- Mathieu Pigeon, professeur au Département de mathématiques de l’Université du Québec à Montréal  \n\n**Mémoire de maitrise**:\n\nOueini, Christina (2023), « Modèles équitables de tarification en assurance automobile » Dir.: Mathieu Pigeon, Mémoire. Montréal (Québec, Canada), Université du Québec à Montréal, Maîtrise en mathématiques.  \n\n\n:::\n\n::: {.column width=\"2%\"}\n<!-- empty column to create gap -->\n:::\n\n::: {.column width=\"30%\"}\n![](../../img/COueini.jpg)\n:::\n\n::: {.column width=\"3%\"}\n<!-- empty column to create gap -->\n:::\n\n::::\n\n\n\n\n\n\n\n## Liste des publications scientifiques \n\n\n\n\n\n\n## Présentations scientifiques\n\n\n\n  - **Modèles équitables en assurance**, *Association des Actuaires IARD*, Québec, Canada (QC), 10 novembre 2022.\n\n\n\n## Autres présentations\n\n\n\n",
+    "supporting": [
+      "COueini_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

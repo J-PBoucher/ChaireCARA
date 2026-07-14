@@ -1,0 +1,25 @@
+project:
+  type: book
+  pre-render: load.R
+  output-dir: pdf
+
+lang: fr-FR
+book:
+  title: "Titre du Livre"
+  author: "Jean-Philippe Boucher"
+  chapters:
+    - index.qmd
+    - equipe.qmd
+    - anciens.qmd
+    - activites.qmd
+    - nouvelles.qmd
+    - publications.qmd
+    - projets.qmd
+    - presentations.qmd
+  
+
+format:
+  pdf:
+    toc: true
+    number-sections: true
+    documentclass: memoir

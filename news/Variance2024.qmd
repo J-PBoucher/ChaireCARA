@@ -1,0 +1,21 @@
+---
+title: "Le prix du meilleur article de l'année 2024 de la revue Variance est donné à des membres de la Chaire"
+subtitle: "Pour l'article « Modelling of Fire Contagion with Application in Farm Insurance » "
+date: "08/27/2025"
+image: ../img/variance_logo.jpg
+about:
+  template: broadside
+  id: about-block
+  image: ../img/variance_logo2.jpg
+  image-shape: round
+---
+
+Le prix du meilleur article de l'année 2024 de la revue 
+[Variance](https://variancejournal.org/) a été décerné à:   
+- [Jean-Philippe Boucher](https://chairecara.uqam.ca/fiches/Chercheurs/JPBoucher.html),  
+- [Andra Crainic](https://chairecara.uqam.ca/fiches/Diplomes1/ACrainic.html),  
+- [Alexandre LeBlanc](https://chairecara.uqam.ca/fiches/Diplomes1/ALeBlanc.html) et  
+- Vincent Masse, 
+
+pour l'article [Modelling of Fire Contagion with Application in Farm Insurance](https://variancejournal.org/article/115924) 
+

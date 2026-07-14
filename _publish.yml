@@ -1,0 +1,7 @@
+- source: project
+  quarto-pub:
+    - id: e3d37767-6f84-4a1c-988b-507aeba2b330
+      url: 'https://jpboucher.quarto.pub/2024-02-cara-website'
+  netlify:
+    - id: 128cd87a-b8f7-4d85-8afa-f1d153976a32
+      url: 'https://chairecara-uqam.netlify.app'

@@ -1,0 +1,29 @@
+---
+title: "Séminaire des étudiants de la Chaire CARA"
+subtitle: |
+  | Arbres évolutifs, une alternative aux arbres de régression classiques
+  | Jay Assoum, UQAM 
+date: 2022-12-21
+toc: TRUE
+---
+
+:::: {.columns}
+
+::: {.column width="65%"}
+
+:::
+
+
+::: {.column width="2%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="30%"}
+![](../../img/JayA.png)
+:::
+
+::: {.column width="3%"}
+<!-- empty column to create gap -->
+:::
+
+::::

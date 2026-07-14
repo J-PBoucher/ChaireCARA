@@ -1,0 +1,135 @@
+---
+title: Jean Paul Stevy Dibert Dollet, MSc.
+subtitle: |
+  | Maitrise en mathématiques, 
+  | UQAM
+image: ../../img/JPDollet.png
+toc: TRUE
+description: "2026/05"
+---
+
+```{r echo = FALSE, results = "asis",  message=FALSE, warning=FALSE}
+
+name = "J.P.D.Dollet"
+
+```
+
+
+
+:::: {.columns}
+
+::: {.column width="65%"}
+
+**Direction de recherche**:  
+
+- Mathieu Pigeon, professeur au Département de mathématiques de l’Université du Québec à Montréal  
+
+**Mémoire de maitrise**:
+
+Dibert Dollet, Jean Paul Stevy (2026), « Génération de données synthétiques pour les réserves en dommages corporels : une approche par apprentissage automatique » Dir.: Mathieu Pigeon, Mémoire. Montréal (Québec, Canada), Université du Québec à Montréal, Maîtrise en mathématiques.  
+
+*Ce mémoire porte sur la génération de données synthétiques pour les réserves en assurance de dommages corporels (Bodily Injury). Dans un contexte où l’accès aux données sinistre par sinistre est fortement restreint pour des raisons de confidentialité, la construction de portefeuilles synthétiques réalistes constitue un enjeu majeur pour la recherche actuarielle, le développement méthodologique et l’évaluation de modèles prédictifs.* 
+
+*L’objectif principal est d’adapter la méthodologie de génération synthétique proposée par So et al. (2021) aux spécificités des données Bodily Injury. Cette adaptation repose sur plusieurs contributions. D’abord, une simulation hiérarchique en deux phases (niveau sinistre puis niveau exposition) est introduite pour refléter la structure imbriquée des données. Ensuite, le SMOTE, inadapté aux variables principalement catégorielles, est remplacé par un rééchantillonnage empirique conditionnel entièrement non paramétrique. Enfin, pour les variables réponses, une approche en deux étapes sépare la modélisation des zéros de celle des valeurs positives : un tirage de Bernoulli pour AGE_EXPO et une régression logistique pour TOTAL_COST_INDEMNITY, suivis d’une régression par réseaux de neurones pour les montants positifs, complétée d’un décalage logarithmique pour corriger le biais de sous-estimation. *
+
+*La qualité du portefeuille synthétique de 23 774 expositions est évaluée selon trois axes. La validation univariée, bivariée et multivariée montre que les structures de dépendance sont fidèlement préservées. Les V de Cramer, qui mesurent l’intensité de la relation entre deux variables catégorielles, présentent des écarts inférieurs à 0,04 entre les données réelles et synthétiques. De plus, 86,7 % des tests de Kruskal–Wallis, utilisés pour vérifier si une variable catégorielle influence une variable numérique de la même manière dans les deux bases, aboutissent à des conclusions cohérentes. Enfin, la corrélation de 0,9412 entre les primes pures estimées sur données réelles et synthétiques confirme que les deux modèles s’accordent sur le classement des risques.*
+
+:::
+
+::: {.column width="2%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="30%"}
+![](../../img/JPDollet.png)
+:::
+
+::: {.column width="3%"}
+<!-- empty column to create gap -->
+:::
+
+::::
+
+
+<!-- XXXXXXXXXXXXXXXXXXX Code plus bas XXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+
+```{r echo = FALSE, results = "asis",  message=FALSE, warning=FALSE}
+
+library(dplyr)
+library(toastui)
+library(DT)
+library(lubridate)
+library(anytime)
+library(stringr)
+
+load('../../rda_files/Publis.Rda')
+load('../../rda_files/Presentations.Rda')
+load('../../rda_files/Preslocales.Rda')
+load('../../rda_files/bycours.Rda')
+load('../../rda_files/Autres.Rda')
+
+source('../../Fonctions.R')
+
+
+###
+
+Publis <- Publis %>% 
+  filter(Auteur1 == name | Auteur2 == name | Auteur3 == name | Auteur4 == name | Auteur5 == name | Auteur6 == name) 
+Presentations <- Presentations %>%
+  filter(Presentateur == name)
+PresLocales <- PresLocales %>%
+  filter(Presentateur == name)
+Cours <- bycours %>%
+  filter(Nom == name & Tache == 'Enseignant')
+Demo <- bycours %>%
+  filter(Nom == name & Tache == 'Demonstrateur')
+Autres <- Autres %>%
+    filter(Nom == name)
+
+```
+
+```{r echo = FALSE, results = "asis",  message=FALSE, warning=FALSE}
+
+if(nrow(Publis) >0) printPublis(Publis)
+
+```
+
+```{r echo = FALSE, results = "asis",  message=FALSE, warning=FALSE}
+
+if(nrow(Presentations) >0) printPres(Presentations)
+
+```
+
+```{r echo = FALSE, results = "asis",  message=FALSE, warning=FALSE}
+
+if(nrow(Cours)+nrow(Demo)+nrow(PresLocales)+nrow(Autres) > 0){
+  cat("## Implications 
+      ")
+}
+```
+
+```{r echo = FALSE, results = "asis",  message=FALSE, warning=FALSE}
+
+if(nrow(PresLocales) >0) printPresLocales(PresLocales)
+
+```
+
+```{r echo = FALSE, results = "asis",  message=FALSE, warning=FALSE}
+
+if(nrow(Cours) >0) printCours(Cours)
+
+```
+
+```{r echo = FALSE, results = "asis",  message=FALSE, warning=FALSE}
+
+if(nrow(Demo) >0) printDemo(Demo)
+
+```
+
+```{r echo = FALSE, results = "asis",  message=FALSE, warning=FALSE}
+
+if(nrow(Autres) >0) printAutres(Autres)
+
+```
+
+

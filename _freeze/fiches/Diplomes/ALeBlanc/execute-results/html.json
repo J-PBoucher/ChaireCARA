@@ -1,0 +1,16 @@
+{
+  "hash": "3fe772115e376076bbec82b4ef6d9a5a",
+  "result": {
+    "markdown": "---\ntitle: Alexandre LeBlanc, MSc. \nsubtitle: |\n  | Maitrise en mathématiques\nimage: ../../img/ALeBlanc.jpg\ndescription: \"Université du Québec à Montréal, 2023\"\ntoc: TRUE\n---\n\n\n\n\n\n\n:::: {.columns}\n\n::: {.column width=\"65%\"}\n\n**Direction de recherche**:  \n\n- Mathieu Pigeon, professeur au Département de mathématiques de l’Université du Québec à Montréal  \n\n**Mémoire de maitrise**:\n\nLeBlanc, Alexandre (2023), « Modélisation de la réserve avec modèles linéaires généralisés pondérés par la réciproque de la probabilité de censure » Dir.: Mathieu Pigeon, Mémoire. Montréal (Québec, Canada), Université du Québec à Montréal, Maîtrise en mathématiques.\n\n:::\n\n::: {.column width=\"2%\"}\n<!-- empty column to create gap -->\n:::\n\n::: {.column width=\"30%\"}\n![](../../img/ALeBlanc.jpg)\n:::\n\n::: {.column width=\"3%\"}\n<!-- empty column to create gap -->\n:::\n\n::::\n\n\n\n\n\n\n\n## Liste des publications scientifiques \n\n\n  \n  - J.-P. Boucher, A. Crainic, A. LeBlanc & V. Masse (2022), <a href='https://archipel.uqam.ca/14171/1/Paper_Farms_fire.pdf' target='_blank'>Modelling of Fire Contagion with Application in Farm Insurance</a>, *Publication prochaine dans Variance* \n  \n    *In a farm, a fire that starts in any structure can spread to all other structures of that same farm, to barns, granaries, silos, etc.. Intuitively, we then expect that a farm with more structures will be more at risk of fire propagation than a smaller one. From an actuarial perspective, as the total premium for farm insurance is the sum of premiums of each structure of that farm, it is therefore necessary to propose a way to compute each premium by considering the risk of fire propagation. Based on the distances between structures on the same farm, we propose a new pricing approach that considers fire propagation. The proposed model makes it possible to analytically compute the probability of fire propagation as a function of the fire origin. This can in turn be used to price all individual structures of any given farm. A practical application of the model based on insurance data and satellite images is given.*  \n  \n\n\n\n## Présentations scientifiques\n\n\n\n\n\n\n## Autres présentations\n\n\n\n",
+    "supporting": [
+      "ALeBlanc_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

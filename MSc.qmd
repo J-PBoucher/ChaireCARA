@@ -1,0 +1,142 @@
+---
+title: "Maitrise en actuariat"
+toc: TRUE
+---
+
+Techniquement, il n'existe pas de diplôme ayant officiellement le nom de *maitrise en actuariat* à l'UQAM.  En pratique, les étudiant(e)s de la Chaire peuvent suivre un programme équivalent en poursuivant des études de 2e cycle en actuariat à l'UQAM dans la **concentration mathématiques actuarielles et financières de la maitrise en mathématiques**.  La description officielle du programme se trouve [ici](https://etudier.uqam.ca/programme?code=1990), mais il convient de mieux expliquer les éléments importants du programme pour la Chaire.
+
+---
+
+
+## Exigences académiques
+
+::: panel-tabset
+
+### Cours (scolarité) {-}
+
+Bien qu'il existe aussi un profil avec *rapport de recherche* dans la maitrise, il est demandé aux étudiant(e)s de la Chaire de faire **le profil avec mémoire de recherche**. Tel qu'indiqué dans le descriptif officiel, la réussite d'un certain nombre de cours de la *liste E* et de la *liste F* est exigée, de même que la réussite d'un cours siglé FIN. Par contre, des contraintes pratiques (offre de cours, disponibilité des professeurs pour enseigner, etc.) font en sorte qu'il est souvent impossible de suivre à la lettre ces exigences.
+
+Ainsi, il est plutôt demandé aux étudiant(e)s de la Chaire de:    
+
+1) Suspendre l'exigence de réussite d'un cours FIN (en parler à son directeur/sa directrice de recherche pour que l'autorisation soit demandée à la direction de programme);    
+
+2) Prendre les 6 cours nécessaires à la scolarité parmi les suivants, en prenant en priorité ceux qui sont en gras:  
+   - MAT7081: Inférence statistique I
+   - MAT7381: Modèles de régression
+   - MAT8081: Analyse statistique multivariée
+   - **MAT8594: Statistique en actuariat**
+   - **MAT8600: Analyse mathématique du risque**
+   - **MAT8780: Principes de simulation**
+   - **MAT998F: Analyse statistique des réserves en assurance IARD**
+   - **MAT998H: Tarification avancée**
+
+   
+3) S'il arrivait que les cours ci-dessus ne soient pas offerts, ou s'ils ne sont pas jugés pertinents, il est aussi possible de suivre des cours de maitrise dans d'autres universités montréalaises, via l'[Institut de Science Mathématique (ISM)](https://ism.uqam.ca/).  Certains cours de la liste [mathématiques actuarielles et financières](http://ism.uqam.ca/~ism/accueil/formation/mathematiques-actuarielles-et-financieres/) ou de la liste [statistique](http://ism.uqam.ca/~ism/accueil/formation/statistics/) peuvent en effet être pertinents.  Il est recommandé d'en parler à son directeur/sa directrice de recherche pour que l'autorisation soit demandée à la direction de programme.
+
+
+::: {.callout-tip collapse='true'}
+## Pour les étudiant(e)s ayant réussi le cheminement Honor du baccalauréat en actuariat de l'UQAM  (ou l'équivalent)
+
+Le **profil Honor** du [baccalauréat en actuariat](https://etudier.uqam.ca/programme?code=7363) de l'UQAM permet de prendre jusqu'à deux cours de maitrise en option lors des dernières sessions du baccalauréat. Même si ces cours sont réussis pendant le baccalauréat, ils seront aussi crédités pour la scolarité de la maitrise à l'UQAM.  En conséquence, au lieu de devoir prendre 6 cours, l'étudiant(e) ayant diplômé avec le profil Honor de l'UQAM n'aura qu'à réussi 4 cours pour compléter sa scolarité de maitrise.
+
+Vous pouvez contacter la direction de programme de premier cycle pour en savoir plus sur le profil Honor du baccalauréat en actuariat.
+
+:::
+
+::: {.callout-warning collapse='true'}
+## Pour les étudiant(e)s ayant une exigence de suivre des cours d'appoint ou de faire une propédeutique
+
+Lorsque des étudiant(e)s qui ne sont pas diplômés du baccalauréat en actuariat de l'UQAM sont accepté(e)s dans l'équipe de la Chaire, il arrive que des cours d'appoint ou des cours en propédeutique soient exigés:  
+
+- Les cours d'appoint (un ou deux cours) font en sorte qu'il est nécessaire de réussir davantage de cours pendant la maitrise.  Les cours d'appoint peuvent être suivis *en même temps* que les cours de maitrise listés ci-dessus.  
+- Les cours de propédeutique sont différents des cours d'appoints: ils doivent être réussis *avant* de pouvoir suivre les cours de maitrise listés ci-dessus. Tout comme pour les cours d'appoints, la propédeutique fait en sorte que des cours supplémentaires doivent être réussis pour obtenir la maitrise.
+
+:::
+
+### Mémoire de maitrise {-}   
+
+En plus des cours de la maitrise, les étudiant(e)s de la Chaire doivent aussi rédiger un mémoire de recherche de 27 crédits sur un sujet de recherche dans les thématiques de recherche de la Chaire.  Il est recommandé de discuter avec son directeur/sa directrice de recherche pour trouver un sujet de recherche pour le mémoire. Dans le cas d'un projet de recherche répondant à des défis pratiques réels, il arrive que des réunions avec différentes équipes de Co-operators soient organisées.
+
+
+### Cheminement proposé {-}
+
+Le cheminement de l'étudiant(e) de la Chaire dépend de sa session d'arrivée aux études. Les étudiant(e)s de la Chaire seront intégré(e)s dans l'équipe 
+
+1) À la session d'automne (environ le 1er septembre)
+2) À la session d'hiver (environ le 1er janvier). 
+3) *Exceptionnellement*, des étudiant(e)s pourraient aussi être intégré(e)s à l'équipe de la Chaire à la session d'été (environ le 1er mai). 
+
+Il est généralement recommandé aux étudiant(e)s de suivre entre **2 et 3 cours de maitrise** à chaque session, et ainsi terminer sa scolarité après 2 ou 3 sessions.  Le sujet de recherche du mémoire de maitrise est souvent trouvé pendant la première année de la maitrise.  Ainsi, le projet de recherche associé au mémoire de maitrise débutera à la fin de la scolarité, et sera d'une durée variant entre 10 et 15 mois.
+
+::: {.callout-important}
+## Session d'été
+
+Habituellement, aucun cours de cycle supérieur n'est offert pendant l'été.  Ainsi, même si la scolarité n'est pas terminée, du temps de travail sera consacré au projet de recherche associé au mémoire de maitrise pendant l'été.
+
+:::
+
+:::
+
+
+## Financement des études 
+
+::: panel-tabset
+
+### Bourses de la Chaire {-}
+
+A toutes les années, la Chaire sollicite la candidature d’étudiant(e)s pour un financement des études à la maîtrise.  Si l'étudiant(e) est sélectionné(e), le financement des études, via le versement d'une bourse d'étude, débute dès l'arrivée dans la Chaire.  Même si l'étudiant(e) a des cours d'appoint ou une propédeutique à réussir, le financement débutera dès l'inscription de l'étudiant à l'UQAM.
+
+::: {.callout-important}
+## Exigences pour visa d'étudiant(e)
+
+Pour les étudiant(e)s provenant de l'étranger, il est important de vérifier si l'exigence de réussite de cours d'appoint ou de cours de propédeutique nécessite d'autres types d'autorisation pour entrer au Canada.
+
+:::
+
+### Autres bourses  {-}
+
+Il est recommandé aux étudiant(e)s de la Chaire de vérifier si d'autres sources de financement des études sont possibles. Certaines bourses d'études pour cycles supérieurs sont listées ci-dessous:
+
+- Bourse du [Fonds de recherche du Québec - Nature et technologies (FRQNT)](https://frq.gouv.qc.ca/programme/bourses-de-formation-a-la-maitrise-frqnt/)
+- Bourse du [Conseil de recherches en sciences naturelles et en génie (CRSNG)](https://www.nserc-crsng.gc.ca/students-etudiants/pg-cs/cgsm-bescm_fra.asp)
+- Bourse d’[exemption des droits de scolarité majorés pour étudiants-es étrangers-ères au 2e cycle](https://bourses.uqam.ca/trouver-une-bourse/bourses-dexemption-des-droits-de-scolarite-majores-pour-etudiants-es-etrangers-eres-au-2e-cycle/)
+- Bourse de la [*Casualty Actuarial Society* (CAS)](https://www.casact.org/trustscholarship)    
+- Bourse de l'Institut Canadien des actuaires  
+- Bourse de la *Society of Actuaries* (SOA)
+- etc.
+
+### Démonstration  {-}
+
+Plusieurs cours du baccaulauréat en actuariat offrent des séances de démonstration de 2 heures, en plus du cours magistral.  Ces séances, animées par des étudiant(e)s (de cycle supérieur, ou ayant réussi le cours dans le passé), servent à faire des exercices ou répondre aux questions des étudiant(e)s. Il s'agit d'un travail rémunéré par l'UQAM.  Avant d'accepter un contrat de démonstration, il est recommandé d'en parler à son directeur/sa directrice de recherche afin de vérifier que ce travail ne ralentira pas la progression des études.
+
+:::
+
+
+
+
+## Autres ressources
+
+::: panel-tabset
+
+### Cours d'anglais  {-}
+
+Des cours d'anglais hebdomadaires, offerts par Co-operators, sont possibles lors des études de maitrise. Il est recommandé de profiter de cette occasion unique car une grande partie des étudiant(e)s qui diplôment de la maitrise iront directement sur le marché du travail.  La maitrise de l'anglais est souvent une exigence pour plusieurs des emplois dans le domaine de l'actuariat.  De plus, dans le cadre de la maitrise, de nombreux articles ou livres de référence sont anglais.
+
+Il faut aborder le sujet avec son directeur/sa directrice de recherche pour obtenir plus de détails.
+
+### Matériel informatique  {-}
+
+Lorsque le projet de recherche débute, du matériel informatique, principalement un ordinateur portable, sera offert par Co-operators. L'ordinateur sera utilisé pour accéder aux données de Co-operators afin de réussir son mémoire de maitrise.  Pour la scolarité de maitrise, afin de réussir les travaux pratiques, il est recommandé d'avoir son propre ordinateur personnel.  Si l'accès à un ordinateur personnel est difficile, il est recommandé d'aborder le sujet avec son directeur/sa directrice de recherche pour voir si un ordinateur pourrait être prêté.
+
+### Séminaire de la Chaire {-}
+
+La Chaire organise régulièrement plusieurs activités scientifiques: ateliers, séminaires des étudiants, etc.  Il est demandé aux étudiant(e)s de la Chaire de participer à ces événements, et d'aider à leur organisation.  Le séminaire de la Chaire est l'occasion de présenter ses résultats de recherche aux autres étudiant(e)s de la Chaire, et de discuter des résultats.
+
+La Chaire est aussi associée au Laboratoire de recherche [Quantact](http://quantact.uqam.ca/). Depuis 2014, Quantact est le Laboratoire de mathématiques actuarielles et financières du [Centre de recherches mathématiques (CRM)](https://www.crmath.ca/). Il s'agit d'un regroupement inter-universitaire de chercheurs spécialisés dans les mathématiques de l'actuariat et de la finance. Quantact offre aussi plusieurs séminaires réguliers dans le domaine de l'actuariat et il est pertinent pour les étudiant(e)s de la Chaire d'y assister.
+
+### Budget de déplacement {-}
+
+Pendant les études de maitrise, un budget est alloué aux étudiants pour assister à une conférence internationale.  Préférablement, la participation à la conférence sera l'occasion de présenter ses résultats de maitrise.  Ainsi, la participation à la conférence est surtout prévue à la fin des études de maitrise, lorsque le projet de recherche est suffisamment avancé pour justifier une présentation. Il faut aborder le sujet avec son directeur/sa directrice de recherche pour plus de détails.
+
+:::
+

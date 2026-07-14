@@ -1,0 +1,16 @@
+{
+  "hash": "5cf7847f39c2f669574699f27466f983",
+  "result": {
+    "markdown": "---\ntitle: Borel Konche\nsubtitle: |\n  | Maitrise en mathématiques\ndescription: 'Université du Québec à Montréal'  \nimage: ../../img/BKonche.jpg\ntoc: TRUE\n---\n\n\n\n\n\n\n:::: {.columns}\n\n::: {.column width=\"65%\"}\n\n**Direction de recherche**:  \n\n- Jean-Philippe Boucher, professeur au Département de mathématiques de l’Université du Québec à Montréal  \n- Mathieu Pigeon, professeur au Département de mathématiques de l’Université du Québec à Montréal  \n\n:::\n\n::: {.column width=\"2%\"}\n<!-- empty column to create gap -->\n:::\n\n::: {.column width=\"30%\"}\n![](../../img/BKonche.jpg)\n:::\n\n::: {.column width=\"3%\"}\n<!-- empty column to create gap -->\n:::\n\n::::\n\n\n\n\n\n\n\n## Liste des publications scientifiques \n\n\n  \n  - B. Konche, J.-P. Boucher & M. Pigeon (2024), <a href='' target='_blank'>Analyse des données de valeur-client chez un assureur de dommages</a>, *[Projet en cours]* \n  \n    *Modélisation de toutes les statistiques des données de valeurs clients.*  \n  \n\n\n## Présentations scientifiques\n\n\n\n\n\n\n## Autres présentations\n\n\n\n",
+    "supporting": [
+      "BorelKonche_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

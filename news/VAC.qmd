@@ -1,0 +1,19 @@
+---
+title: Le professeur J.-P. Boucher est nommé sur le comité consultatif de l’Autorité des marchés financiers sur les véhicules automatisés et connectés
+subtitle: "Le Comité servira de catalyseur de réflexion et d’action en rassemblant diverses parties intéressées par le secteur des véhicules automatisés et connectés (« VAC »)."
+date: 2023-09-19
+image: ../img/VAC.jpg
+about:
+  template: broadside
+  id: about-block
+  image: ../img/VAC.jpg
+  image-shape: round
+---
+
+À l’heure où les véhicules intelligents gagnent en popularité, l’Autorité des marchés financiers (l’« Autorité ») annonce aujourd’hui la composition de son comité consultatif portant sur l’impact des véhicules automatisés et connectés sur l’assurance automobile au Québec (le « Comité »).
+
+Le Comité servira de catalyseur de réflexion et d’action en rassemblant diverses parties intéressées par le secteur des véhicules automatisés et connectés (« VAC »). Il a pour objectifs de favoriser les échanges, bénéficier de l’intelligence collective et explorer des idées et pistes de solution visant à s’assurer que les consommateurs québécois soient adéquatement protégés advenant l’utilisation d’un VAC. Le Comité permettra également à l’Autorité, au gouvernement et à l’industrie de l’assurance automobile d’être mieux outillés pour faire face aux différents enjeux découlant de la présence accrue des VAC sur les routes du Québec.
+
+[Voir la suite](https://lautorite.qc.ca/grand-public/salle-de-presse/actualites/fiche-dactualite/mobilite-de-demain-lautorite-devoile-les-membres-de-son-comite-consultatif-sur-les-vehicules-automatises-et-connectes)
+
+

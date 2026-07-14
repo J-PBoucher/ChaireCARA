@@ -1,0 +1,33 @@
+---
+title: Midi-rencontre avec les chercheurs et étudiant(e)s de la Chaire
+subtitle: "Présentation de la Chaire CARA aux étudiants de l'UQAM: pizzas cafés offerts aux participants!"
+date: 2023-11-15
+toc: TRUE
+image: ../../img/Presentation.png
+---
+
+:::: {.columns}
+
+::: {.column width="65%"}
+
+Midi-rencontre avec les chercheurs et étudiant(e)s de la Chaire, et des membres de l'équipe de recherche de Co-operators.  
+
+- Exemples de projet de recherche dans la Chaire  
+- Détails sur le financement des études  
+- Emplois et offres de stage en entreprise 
+
+:::
+
+::: {.column width="2%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="30%"}
+![](../../img/Presentation.png)
+:::
+
+::: {.column width="3%"}
+<!-- empty column to create gap -->
+:::
+
+::::

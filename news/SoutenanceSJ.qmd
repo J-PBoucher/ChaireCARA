@@ -1,0 +1,59 @@
+---
+title: Soutenance de doctorat de Sébastien Jessup
+date: 2024-09-30
+subtitle: |
+  | Advancements in model combination and uncertainty quantification with applications in actuarial science
+image: ../../img/AvisSoutenance2.png
+toc: TRUE
+---
+
+:::: {.columns}
+
+::: {.column width="65%"}
+
+**Direction de recherche**:  
+
+- Madame Mélina Mailhot, professeure au Département de mathématiques et statistique de l’Université Concordia  
+- Monsieur Mathieu Pigeon, professeur au Département de mathématiques de l’Université du Québec à Montréal  
+
+**Jury d’évaluation**:  
+
+- Madame Tatyana Koreshkova, professeure au Département d'économie de l’Université Concordia  
+- Madame Mélina Mailhot, professeure au Département de mathématiques et statistique de l’Université Concordia  
+- Monsieur Mathieu Pigeon, professeur au Département de mathématiques de l’Université du Québec à Montréal  
+- Monsieur Frédérick Godin, professeur au Département de mathématiques et statistique de l’Université Concordia  
+- Monsieur Yang Lu, professeur au Département de mathématiques et statistique de l’Université Concordia  
+- Monsieur Jean-Philippe Boucher, professeur au Département de mathématiques de l’Université du Québec à Montréal  
+
+**Examinateur externe**:
+
+- Madame Anne-Sophie Charest, professeure au Département de mathématiques et statistique de l’Université Laval   
+
+**Date de soutenance**:
+
+- Le lundi 30 septembre 2024 à 9h00
+
+**Endroit**:
+
+Université Concordia
+Pavillon J.W. McConnell    
+Salle LB 921-4    
+1400, boulevard Maisonneuve Ouest    
+Montréal (Québec)    
+
+
+:::
+
+::: {.column width="2%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="30%"}
+![](../../img/SJ.png)
+:::
+
+::: {.column width="3%"}
+<!-- empty column to create gap -->
+:::
+
+::::

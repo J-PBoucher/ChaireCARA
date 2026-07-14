@@ -1,0 +1,112 @@
+---
+title: ""
+pagetitle: "Publications | Chaire CARA"
+page-layout: full
+toc: false
+---
+
+
+```{r echo = FALSE, results = "asis", message = FALSE, warning = FALSE}
+library(dplyr)
+library(lubridate)
+
+load("rda_files/Publis.Rda")
+```
+
+
+::: {.cara-publications-page}
+
+::: {.cara-page-hero}
+
+![](img/UQAMp3.jpg){fig-alt="Campus de l’UQAM"}
+
+::: {.cara-page-hero-text}
+::: {.cara-kicker}
+Recherche · Chaire CARA
+:::
+
+# Publications
+
+Cette section présente les articles scientifiques publiés par les membres de la Chaire Co-operators en analyse des risques actuariels dans le cadre de leurs travaux de recherche.
+:::
+
+:::
+
+
+::: {.cara-publications-section}
+
+## Publications récentes
+
+::: {.cara-publication-list}
+
+```{r echo = FALSE, results = "asis", message = FALSE, warning = FALSE}
+publis <- Publis %>%
+  filter(Année >= 2019, Etat != "Projet", is.na(Exclu)) %>%
+  arrange(desc(Année))
+
+template <- "
+<div class='cara-publication-item'>
+  <div class='cara-publication-title'>%s</div>
+  <div class='cara-publication-authors'>%s</div>
+  <div class='cara-publication-journal'><em>%s</em> %s</div>
+</div>\n"
+
+if (nrow(publis) > 0) {
+  for (i in seq_len(nrow(publis))) {
+    current <- publis[i, ]
+
+    lien <- ifelse(is.na(current$Lien), "", current$Lien)
+    auteurs <- ifelse(is.na(current$AllAuteurs), "", current$AllAuteurs)
+    journal <- ifelse(is.na(current$Journal2), "", current$Journal2)
+    pages <- ifelse(is.na(current$Pages), "", current$Pages)
+
+    cat(sprintf(template, lien, auteurs, journal, pages))
+  }
+}
+```
+
+:::
+
+:::
+
+
+::: {.cara-publications-section .cara-publications-old}
+
+<details>
+<summary>Publications plus anciennes</summary>
+
+::: {.cara-publication-list}
+
+```{r echo = FALSE, results = "asis", message = FALSE, warning = FALSE}
+publis_old <- Publis %>%
+  filter(Année < 2019, Etat != "Projet") %>%
+  arrange(desc(Année))
+
+template <- "
+<div class='cara-publication-item'>
+  <div class='cara-publication-title'>%s</div>
+  <div class='cara-publication-authors'>%s</div>
+  <div class='cara-publication-journal'><em>%s</em> %s</div>
+</div>\n"
+
+if (nrow(publis_old) > 0) {
+  for (i in seq_len(nrow(publis_old))) {
+    current <- publis_old[i, ]
+
+    lien <- ifelse(is.na(current$Lien), "", current$Lien)
+    auteurs <- ifelse(is.na(current$AllAuteurs), "", current$AllAuteurs)
+    journal <- ifelse(is.na(current$Journal2), "", current$Journal2)
+    pages <- ifelse(is.na(current$Pages), "", current$Pages)
+
+    cat(sprintf(template, lien, auteurs, journal, pages))
+  }
+}
+```
+
+:::
+
+</details>
+
+:::
+
+:::

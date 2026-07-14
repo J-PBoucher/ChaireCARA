@@ -1,0 +1,57 @@
+---
+title: Soutenance de doctorat de Marie Michaelides
+date: 2024-05-28
+subtitle: |
+  | Analyse de la dépendance intra-trajectoire dans la modélisation individuelle des réserves en assurance non-vie
+image: ../../img/MM2.png
+toc: TRUE
+---
+
+:::: {.columns}
+
+::: {.column width="65%"}
+
+**Direction de recherche**:  
+
+- Mathieu Pigeon, professeur au Département de mathématiques de l’Université du Québec à Montréal  
+
+**Jury d’évaluation**:  
+
+- Katrien Antonio, professeure au Département de comptabilité, de finance et d’assurance, Université Catholique de Louvain et *School of Economics*, Université d’Amsterdam 
+- Yang Lu, professeur au Département de mathématiques et statistique de l’Université Concordia  
+- Hélène Cossette, professeure à l'École d'actuariat de l’Université Laval  
+- Mathieu Pigeon, professeur au Département de mathématiques de l’Université du Québec à Montréal  
+- Jean-Philippe Boucher, professeur au Département de mathématiques de l’Université du Québec à Montréal  
+
+**Représentant du doyen**:
+
+- François Watier, professeur au Département de mathématiques de l’Université du Québec à Montréal  
+
+**Date de soutenance**:
+
+- Le mardi 28 mai 2024 à 9h30
+
+**Endroit**:
+
+Université du Québec à Montréal    
+Pavillon Président-Kennedy    
+Salle PK-2265    
+201, avenue du Président-Kennedy    
+Montréal (Québec)    
+
+
+:::
+
+::: {.column width="2%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="30%"}
+![](../../img/MM.png)
+:::
+
+::: {.column width="3%"}
+<!-- empty column to create gap -->
+:::
+
+::::
