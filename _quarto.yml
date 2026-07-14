@@ -12,6 +12,7 @@ project:
 lang: fr-FR
 website:
   title: "Chaire CARA"
+  site-url: "https://j-pboucher.github.io/ChaireCARA/"
   favicon: img/favicon2.png
   navbar:
     pinned: true
@@ -76,7 +77,13 @@ website:
         Jean-Philippe Boucher – Chaire CARA
       </span>
     right: |
-      <span class="faux-block"><a href="https://github.com/J-PBoucher">View source on GitHub</a></span>
+      <span class="faux-block">
+        <a href="https://github.com/J-PBoucher/ChaireCARA"
+           target="_blank"
+           rel="noopener">
+          Code source sur GitHub
+        </a>
+      </span>
 
 execute:
   freeze: false
