@@ -20,7 +20,7 @@ jobs:
           port: 2243
           password: ${{ secrets.SFTP_PASSWORD }}
           local_path: './www/*'
-          remote_path: /home/chairecara/public_html
+          remote_path: /home/chaireca/public_html
           sftp_only: true
  
  
