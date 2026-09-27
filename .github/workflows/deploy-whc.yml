@@ -19,10 +19,10 @@ jobs:
           server: chairecara.uqam.ca
           port: 2243
           ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+          ssh_passphrase: ${{ secrets.SSH_PASSPHRASE }}
           local_path: './www/*'
           remote_path: /home/chaireca/public_html
           sftp_only: true
- 
  
 
 
