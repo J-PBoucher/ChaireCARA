@@ -13,6 +13,8 @@ library(lubridate)
 load("rda_files/Publis.Rda")
 ```
 
+<script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
 
 ::: {.cara-publications-page}
 
@@ -44,23 +46,29 @@ publis <- Publis %>%
   filter(Année >= 2019, Etat != "Projet", is.na(Exclu)) %>%
   arrange(desc(Année))
 
-template <- "
-<div class='cara-publication-item'>
-  <div class='cara-publication-title'>%s</div>
-  <div class='cara-publication-authors'>%s</div>
-  <div class='cara-publication-journal'><em>%s</em> %s</div>
-</div>\n"
-
 if (nrow(publis) > 0) {
   for (i in seq_len(nrow(publis))) {
+
     current <- publis[i, ]
 
     lien <- ifelse(is.na(current$Lien), "", current$Lien)
     auteurs <- ifelse(is.na(current$AllAuteurs), "", current$AllAuteurs)
     journal <- ifelse(is.na(current$Journal2), "", current$Journal2)
     pages <- ifelse(is.na(current$Pages), "", current$Pages)
+    doi <- ifelse(is.na(current$DOI), "", trimws(current$DOI))
 
-    cat(sprintf(template, lien, auteurs, journal, pages))
+    cat("<div class='cara-publication-item'>\n")
+    cat("<div class='cara-publication-title'>", lien, "</div>\n", sep = "")
+    cat("<div class='cara-publication-authors'>", auteurs, "</div>\n", sep = "")
+    cat("<div class='cara-publication-journal'><em>", journal, "</em> ", pages, "</div>\n", sep = "")
+
+    if (doi != "" && doi != "NA") {
+      cat("<div class='cara-publication-metrics'>\n")
+      cat("<span class='__dimensions_badge_embed__' data-doi='", doi, "' data-style='small_rectangle'></span>\n", sep = "")
+      cat("</div>\n")
+    }
+
+    cat("</div>\n")
   }
 }
 ```
@@ -82,23 +90,29 @@ publis_old <- Publis %>%
   filter(Année < 2019, Etat != "Projet") %>%
   arrange(desc(Année))
 
-template <- "
-<div class='cara-publication-item'>
-  <div class='cara-publication-title'>%s</div>
-  <div class='cara-publication-authors'>%s</div>
-  <div class='cara-publication-journal'><em>%s</em> %s</div>
-</div>\n"
-
 if (nrow(publis_old) > 0) {
   for (i in seq_len(nrow(publis_old))) {
+
     current <- publis_old[i, ]
 
     lien <- ifelse(is.na(current$Lien), "", current$Lien)
     auteurs <- ifelse(is.na(current$AllAuteurs), "", current$AllAuteurs)
     journal <- ifelse(is.na(current$Journal2), "", current$Journal2)
     pages <- ifelse(is.na(current$Pages), "", current$Pages)
+    doi <- ifelse(is.na(current$DOI), "", trimws(current$DOI))
 
-    cat(sprintf(template, lien, auteurs, journal, pages))
+    cat("<div class='cara-publication-item'>\n")
+    cat("<div class='cara-publication-title'>", lien, "</div>\n", sep = "")
+    cat("<div class='cara-publication-authors'>", auteurs, "</div>\n", sep = "")
+    cat("<div class='cara-publication-journal'><em>", journal, "</em> ", pages, "</div>\n", sep = "")
+
+    if (doi != "" && doi != "NA") {
+      cat("<div class='cara-publication-metrics'>\n")
+      cat("<span class='__dimensions_badge_embed__' data-doi='", doi, "' data-style='small_rectangle'></span>\n", sep = "")
+      cat("</div>\n")
+    }
+
+    cat("</div>\n")
   }
 }
 ```
@@ -110,3 +124,4 @@ if (nrow(publis_old) > 0) {
 :::
 
 :::
+
