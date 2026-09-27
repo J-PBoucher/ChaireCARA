@@ -18,7 +18,7 @@ jobs:
           username: github@chairecara.uqam.ca
           server: chairecara.uqam.ca
           port: 2243
-          password: ${{ secrets.SFTP_PASSWORD }}
+          password: LapinLapin01!!
           local_path: './www/*'
           remote_path: /home/chaireca/public_html
           sftp_only: true
