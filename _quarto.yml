@@ -9,6 +9,7 @@ project:
     watch-inputs: true
     navigate: true
 
+
 lang: fr-FR
 website:
   title: "Chaire CARA"
