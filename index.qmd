@@ -19,6 +19,7 @@ listing:
 ---
 
 
+
 ::: {.cara-page}
 
 ::: {.cara-top-grid}
@@ -82,3 +83,5 @@ Collaboration avec le milieu professionnel afin de relier les avancées méthodo
 :::
 
 :::
+
+
