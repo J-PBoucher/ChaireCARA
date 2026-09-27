@@ -102,3 +102,9 @@ format:
     css: custom.css  
     toc: true
     sidebar: true
+    
+    
+#git add .
+#git commit -m "Description de la modification"
+#git push
+#quarto publish gh-pages

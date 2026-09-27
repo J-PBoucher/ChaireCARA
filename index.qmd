@@ -25,10 +25,6 @@ listing:
 
 ::: {.cara-hero}
 
-::: {.cara-kicker}
-UQAM · Sciences actuarielles · Assurance de dommages
-:::
-
 ::: {.cara-hero-logo-inline}
 ![](img/logo_UQAM_ChaireCo-operators_couleurs.png){fig-alt="Logo de la Chaire Co-operators en analyse des risques actuariels"}
 :::
