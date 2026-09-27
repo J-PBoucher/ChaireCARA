@@ -33,7 +33,7 @@ Travaux de maîtrise et de doctorat réalisés dans le cadre des activités de r
 
 ::: {.cara-thesis-item}
 **Coulibaly, Raissa** — 2026  
-« Expérience d’assurance et durée de couverture dans la tarification sous une loi de Tweedie »  
+« [Expérience d’assurance et durée de couverture dans la tarification sous une loi de Tweedie](https://archipel.uqam.ca/20178/) »  
 Dir. : Jean-Philippe Boucher. Thèse de doctorat. Montréal (Québec, Canada), Université du Québec à Montréal, Doctorat en mathématiques.
 :::
 
