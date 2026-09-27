@@ -15,9 +15,9 @@ jobs:
       - name: Déployer vers WHC via SFTP
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
-          username: chaireca
+          username: github@chairecara.uqam.ca
           server: chairecara.uqam.ca
-          port: 2243
+          port: 22
           password: ${{ secrets.SFTP_PASSWORD }}
           local_path: './www/*'
           remote_path: /home/chaireca/public_html
