@@ -30,7 +30,7 @@ jobs:
 
           chmod 700 ~/.ssh/askpass.sh
 
-      - name: Tester la connexion SSH
+      - name: Déployer le site par SFTP
         env:
           SSH_PASSPHRASE: ${{ secrets.SSH_PASSPHRASE }}
         run: |
@@ -38,26 +38,12 @@ jobs:
           export SSH_ASKPASS_REQUIRE=force
           export DISPLAY=:0
 
-          ssh -o StrictHostKeyChecking=no \
-              -o BatchMode=no \
-              -i ~/.ssh/deploy_key \
-              -p 2243 \
-              chaireca@chairecara.uqam.ca \
-              "echo 'Connexion SSH réussie'"
-
-      - name: Tester l'écriture SFTP
-        env:
-          SSH_PASSPHRASE: ${{ secrets.SSH_PASSPHRASE }}
-        run: |
-          export SSH_ASKPASS="$HOME/.ssh/askpass.sh"
-          export SSH_ASKPASS_REQUIRE=force
-          export DISPLAY=:0
-
-          echo "Test GitHub $(date)" > test-github.txt
-
-          printf 'put test-github.txt /home/chaireca/public_html/test-github.txt\n' | \
-            sftp -o StrictHostKeyChecking=no \
-                 -o BatchMode=no \
-                 -i ~/.ssh/deploy_key \
-                 -P 2243 \
-                 chaireca@chairecara.uqam.ca
+          sftp -o StrictHostKeyChecking=no \
+               -o BatchMode=no \
+               -i ~/.ssh/deploy_key \
+               -P 2243 \
+               chaireca@chairecara.uqam.ca << 'EOF'
+          cd /home/chaireca/public_html
+          put -r ./www/*
+          bye
+          EOF
