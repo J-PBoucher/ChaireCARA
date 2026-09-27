@@ -12,18 +12,65 @@ jobs:
       - name: Cloner le dépôt
         uses: actions/checkout@v4
 
-      - name: Déployer vers WHC via SFTP
-        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
-        with:
-          username: chaireca
-          server: chairecara.uqam.ca
-          port: 2243
-          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
-          ssh_passphrase: ${{ secrets.SSH_PASSPHRASE }}
-          local_path: './www/*'
-          remote_path: /home/chaireca/public_html
-          sftp_only: true
- 
+      - name: Installer la clé SSH
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          SSH_PASSPHRASE: ${{ secrets.SSH_PASSPHRASE }}
+        run: |
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
 
+          printf '%s\n' "$SSH_PRIVATE_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
 
+          cat > ~/.ssh/askpass.sh << 'EOF'
+          #!/bin/sh
+          printf '%s\n' "$SSH_PASSPHRASE"
+          EOF
+          chmod 700 ~/.ssh/askpass.sh
 
+          export SSH_ASKPASS="$HOME/.ssh/askpass.sh"
+          export SSH_ASKPASS_REQUIRE=force
+          export DISPLAY=:0
+
+          eval "$(ssh-agent -s)"
+          setsid ssh-add ~/.ssh/deploy_key </dev/null
+
+      - name: Tester la connexion SSH
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          SSH_PASSPHRASE: ${{ secrets.SSH_PASSPHRASE }}
+        run: |
+          mkdir -p ~/.ssh
+          printf '%s\n' "$SSH_PRIVATE_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+
+          cat > ~/.ssh/askpass.sh << 'EOF'
+          #!/bin/sh
+          printf '%s\n' "$SSH_PASSPHRASE"
+          EOF
+          chmod 700 ~/.ssh/askpass.sh
+
+          export SSH_ASKPASS="$HOME/.ssh/askpass.sh"
+          export SSH_ASKPASS_REQUIRE=force
+          export DISPLAY=:0
+
+          ssh -o StrictHostKeyChecking=no \
+              -o BatchMode=no \
+              -i ~/.ssh/deploy_key \
+              -p 2243 \
+              chaireca@chairecara.uqam.ca \
+              "echo 'Connexion SSH réussie'"
+
+      - name: Déployer le site
+        env:
+          SSH_PASSPHRASE: ${{ secrets.SSH_PASSPHRASE }}
+        run: |
+          export SSH_ASKPASS="$HOME/.ssh/askpass.sh"
+          export SSH_ASKPASS_REQUIRE=force
+          export DISPLAY=:0
+
+          rsync -avz --delete \
+            -e "ssh -o StrictHostKeyChecking=no -o BatchMode=no -i ~/.ssh/deploy_key -p 2243" \
+            ./www/ \
+            chaireca@chairecara.uqam.ca:/home/chaireca/public_html/
