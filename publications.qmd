@@ -7,13 +7,604 @@ toc: false
 
 
 ```{r echo = FALSE, results = "asis", message = FALSE, warning = FALSE}
+
 library(dplyr)
 library(lubridate)
+library(jsonlite)
 
 load("rda_files/Publis.Rda")
+
+
+# ------------------------------------------------------------
+# Uniformisation des titres en sentence case
+# ------------------------------------------------------------
+
+clean_title <- function(x) {
+
+  if (is.null(x) || length(x) == 0 || is.na(x[1])) {
+    return("")
+  }
+
+  x <- trimws(as.character(x[1]))
+
+  # Termes dont la casse doit être conservée
+  protected_terms <- c(
+    "GAMLSS",
+    "GLM",
+    "GAM",
+    "BMS",
+    "CAS",
+    "EU",
+    "APA",
+    "R",
+    "Tweedie",
+    "Sarmanov",
+    "AdaBoost",
+    "Poisson",
+    "Bayesian",
+    "Archimedean",
+    "Pareto",
+    "Gaussian"
+  )
+
+  # Tout en minuscules
+  x <- tolower(x)
+
+  # Majuscule au début du titre
+  substr(x, 1, 1) <- toupper(substr(x, 1, 1))
+
+  # Restaure les termes particuliers
+  for (term in protected_terms) {
+
+    x <- gsub(
+      paste0("\\b", tolower(term), "\\b"),
+      term,
+      x,
+      ignore.case = TRUE
+    )
+  }
+
+  x
+}
+
+
+# ------------------------------------------------------------
+# Nettoyage des pages
+# 121-131 devient 121–131
+# ------------------------------------------------------------
+
+clean_pages <- function(x) {
+
+  if (is.null(x) || length(x) != 1 || is.na(x)) {
+    return("")
+  }
+
+  x <- trimws(as.character(x))
+
+  x <- gsub(
+    "([0-9])-([0-9])",
+    "\\1–\\2",
+    x
+  )
+
+  x
+}
+
+
+# ------------------------------------------------------------
+# Extraction sécurisée d'un champ Crossref simple
+# ------------------------------------------------------------
+
+get_scalar <- function(x) {
+
+  if (is.null(x) || length(x) != 1 || is.na(x)) {
+    return("")
+  }
+
+  x <- trimws(as.character(x))
+
+  # Évite les valeurs accidentelles du type c(2014, 9)
+
+  if (grepl("^c\\(", x)) {
+    return("")
+  }
+
+  x
+}
+
+
+# ------------------------------------------------------------
+# Récupération des métadonnées Crossref à partir du DOI
+# ------------------------------------------------------------
+
+get_crossref <- function(doi) {
+
+  doi <- trimws(as.character(doi))
+
+  if (is.na(doi) || doi == "" || doi == "NA") {
+    return(NULL)
+  }
+
+  url <- paste0(
+    "https://api.crossref.org/works/",
+    URLencode(doi, reserved = TRUE)
+  )
+
+  tryCatch({
+
+    x <- jsonlite::fromJSON(url)$message
+
+
+    # --------------------------------------------------------
+    # Titre
+    # --------------------------------------------------------
+
+    titre <- ""
+
+    if (!is.null(x$title) && length(x$title) > 0) {
+
+      titre <- clean_title(
+        x$title[1]
+      )
+    }
+
+
+    # --------------------------------------------------------
+    # Auteurs
+    # --------------------------------------------------------
+
+    auteurs <- ""
+
+    if (!is.null(x$author) &&
+        is.data.frame(x$author) &&
+        nrow(x$author) > 0) {
+
+      noms <- character(
+        nrow(x$author)
+      )
+
+      for (j in seq_len(nrow(x$author))) {
+
+        given <- ""
+        family <- ""
+
+        if ("given" %in% names(x$author)) {
+
+          if (!is.na(x$author$given[j])) {
+
+            given <- as.character(
+              x$author$given[j]
+            )
+          }
+        }
+
+        if ("family" %in% names(x$author)) {
+
+          if (!is.na(x$author$family[j])) {
+
+            family <- as.character(
+              x$author$family[j]
+            )
+          }
+        }
+
+        noms[j] <- trimws(
+          paste(
+            given,
+            family
+          )
+        )
+      }
+
+      noms <- noms[
+        noms != ""
+      ]
+
+
+      if (length(noms) == 1) {
+
+        auteurs <- noms[1]
+
+      } else if (length(noms) == 2) {
+
+        auteurs <- paste(
+          noms,
+          collapse = " & "
+        )
+
+      } else if (length(noms) > 2) {
+
+        auteurs <- paste0(
+          paste(
+            noms[-length(noms)],
+            collapse = ", "
+          ),
+          " & ",
+          noms[length(noms)]
+        )
+      }
+    }
+
+
+    # --------------------------------------------------------
+    # Journal
+    # --------------------------------------------------------
+
+    journal <- ""
+
+    if (!is.null(x$`container-title`) &&
+        length(x$`container-title`) > 0) {
+
+      journal <- as.character(
+        x$`container-title`[1]
+      )
+    }
+
+
+    # --------------------------------------------------------
+    # Volume
+    # --------------------------------------------------------
+
+    volume <- get_scalar(
+      x$volume
+    )
+
+
+    # --------------------------------------------------------
+    # Numéro
+    # --------------------------------------------------------
+
+    issue <- get_scalar(
+      x$issue
+    )
+
+
+    # --------------------------------------------------------
+    # Pages ou numéro d'article
+    # --------------------------------------------------------
+
+    pages <- ""
+
+    if (!is.null(x$page)) {
+
+      pages <- get_scalar(
+        x$page
+      )
+    }
+
+    if (pages == "" &&
+        !is.null(x$`article-number`)) {
+
+      pages <- get_scalar(
+        x$`article-number`
+      )
+    }
+
+    pages <- clean_pages(
+      pages
+    )
+
+
+    # --------------------------------------------------------
+    # Construction de la référence
+    #
+    # 58: 121–131
+    #
+    # ou
+    #
+    # 28(2): 337–360
+    # --------------------------------------------------------
+
+    details <- ""
+
+    if (volume != "") {
+
+      details <- volume
+    }
+
+
+    if (issue != "") {
+
+      if (details != "") {
+
+        details <- paste0(
+          details,
+          "(",
+          issue,
+          ")"
+        )
+
+      } else {
+
+        details <- paste0(
+          "(",
+          issue,
+          ")"
+        )
+      }
+    }
+
+
+    if (pages != "") {
+
+      if (details != "") {
+
+        details <- paste0(
+          details,
+          ": ",
+          pages
+        )
+
+      } else {
+
+        details <- pages
+      }
+    }
+
+
+    # --------------------------------------------------------
+    # Résultat
+    # --------------------------------------------------------
+
+    list(
+      titre = titre,
+      auteurs = auteurs,
+      journal = journal,
+      details = details,
+      doi = doi
+    )
+
+
+  }, error = function(e) {
+
+    return(NULL)
+
+  })
+}
+
+
+# ------------------------------------------------------------
+# Affichage d'une publication
+# ------------------------------------------------------------
+
+print_publication <- function(current) {
+
+
+  # ----------------------------------------------------------
+  # Informations locales
+  # Elles servent de fallback si aucun DOI n'est disponible
+  # ----------------------------------------------------------
+
+  lien <- ifelse(
+    is.na(current$Lien),
+    "",
+    as.character(current$Lien)
+  )
+
+
+  auteurs <- ifelse(
+    is.na(current$AllAuteurs),
+    "",
+    as.character(current$AllAuteurs)
+  )
+
+
+  journal <- ifelse(
+    is.na(current$Journal2),
+    "",
+    as.character(current$Journal2)
+  )
+
+
+  pages <- ifelse(
+    is.na(current$Pages),
+    "",
+    as.character(current$Pages)
+  )
+
+
+  doi <- ifelse(
+    is.na(current$DOI),
+    "",
+    trimws(
+      as.character(current$DOI)
+    )
+  )
+
+
+  # ----------------------------------------------------------
+  # Si DOI :
+  # récupération des métadonnées Crossref
+  # ----------------------------------------------------------
+
+  cr <- NULL
+
+  if (doi != "" &&
+      doi != "NA") {
+
+    cr <- get_crossref(
+      doi
+    )
+  }
+
+
+  # ----------------------------------------------------------
+  # DOI trouvé dans Crossref
+  # ----------------------------------------------------------
+
+  if (!is.null(cr) &&
+      cr$titre != "") {
+
+
+    doi_url <- paste0(
+      "https://doi.org/",
+      doi
+    )
+
+
+    cat(
+      "<div class='cara-publication-item'>\n"
+    )
+
+
+    # Titre
+
+    cat(
+      "<div class='cara-publication-title'><a href='",
+      doi_url,
+      "' target='_blank' rel='noopener noreferrer'>",
+      cr$titre,
+      "</a></div>\n",
+      sep = ""
+    )
+
+
+    # Auteurs
+
+    if (cr$auteurs != "") {
+
+      cat(
+        "<div class='cara-publication-authors'>",
+        cr$auteurs,
+        "</div>\n",
+        sep = ""
+      )
+    }
+
+
+    # Journal + volume + numéro + pages
+
+    cat(
+      "<div class='cara-publication-journal'><em>",
+      cr$journal,
+      "</em>",
+      sep = ""
+    )
+
+
+    if (cr$details != "") {
+
+      cat(
+        " ",
+        cr$details,
+        sep = ""
+      )
+    }
+
+
+    cat(
+      "</div>\n"
+    )
+
+
+    # --------------------------------------------------------
+    # Dimensions
+    # --------------------------------------------------------
+
+    cat(
+      "<div class='cara-publication-metrics'>\n"
+    )
+
+
+    cat(
+      "<span class='__dimensions_badge_embed__' data-doi='",
+      doi,
+      "' data-style='small_rectangle'></span>\n",
+      sep = ""
+    )
+
+
+    cat(
+      "</div>\n"
+    )
+
+
+    cat(
+      "</div>\n"
+    )
+
+
+  # ----------------------------------------------------------
+  # Pas de DOI ou Crossref ne trouve pas le DOI
+  # ----------------------------------------------------------
+
+  } else {
+
+
+    cat(
+      "<div class='cara-publication-item'>\n"
+    )
+
+
+    # Titre provenant de Publis.Rda
+
+    cat(
+      "<div class='cara-publication-title'>",
+      lien,
+      "</div>\n",
+      sep = ""
+    )
+
+
+    # Auteurs
+
+    cat(
+      "<div class='cara-publication-authors'>",
+      auteurs,
+      "</div>\n",
+      sep = ""
+    )
+
+
+    # Journal
+
+    cat(
+      "<div class='cara-publication-journal'><em>",
+      journal,
+      "</em> ",
+      pages,
+      "</div>\n",
+      sep = ""
+    )
+
+
+    # --------------------------------------------------------
+    # Si le DOI existe mais que Crossref est temporairement
+    # indisponible, on affiche quand même Dimensions
+    # --------------------------------------------------------
+
+    if (doi != "" &&
+        doi != "NA") {
+
+
+      cat(
+        "<div class='cara-publication-metrics'>\n"
+      )
+
+
+      cat(
+        "<span class='__dimensions_badge_embed__' data-doi='",
+        doi,
+        "' data-style='small_rectangle'></span>\n",
+        sep = ""
+      )
+
+
+      cat(
+        "</div>\n"
+      )
+    }
+
+
+    cat(
+      "</div>\n"
+    )
+  }
+}
 ```
 
-<script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<script async src="https://integration-badge.dimensions.ai/static/ai/badge.js" charset="utf-8"></script>
 
 
 ::: {.cara-publications-page}
@@ -23,6 +614,7 @@ load("rda_files/Publis.Rda")
 ![](img/UQAMp3.jpg){fig-alt="Campus de l’UQAM"}
 
 ::: {.cara-page-hero-text}
+
 ::: {.cara-kicker}
 Recherche · Chaire CARA
 :::
@@ -30,6 +622,7 @@ Recherche · Chaire CARA
 # Publications
 
 Cette section présente les articles scientifiques publiés par les membres de la Chaire Co-operators en analyse des risques actuariels dans le cadre de leurs travaux de recherche.
+
 :::
 
 :::
@@ -42,33 +635,25 @@ Cette section présente les articles scientifiques publiés par les membres de l
 ::: {.cara-publication-list}
 
 ```{r echo = FALSE, results = "asis", message = FALSE, warning = FALSE}
+
 publis <- Publis %>%
-  filter(Année >= 2019, Etat != "Projet", is.na(Exclu)) %>%
-  arrange(desc(Année))
+  filter(
+    Année >= 2019,
+    Etat != "Projet",
+    is.na(Exclu)
+  ) %>%
+  arrange(
+    desc(Année)
+  )
+
 
 if (nrow(publis) > 0) {
+
   for (i in seq_len(nrow(publis))) {
 
-    current <- publis[i, ]
-
-    lien <- ifelse(is.na(current$Lien), "", current$Lien)
-    auteurs <- ifelse(is.na(current$AllAuteurs), "", current$AllAuteurs)
-    journal <- ifelse(is.na(current$Journal2), "", current$Journal2)
-    pages <- ifelse(is.na(current$Pages), "", current$Pages)
-    doi <- ifelse(is.na(current$DOI), "", trimws(current$DOI))
-
-    cat("<div class='cara-publication-item'>\n")
-    cat("<div class='cara-publication-title'>", lien, "</div>\n", sep = "")
-    cat("<div class='cara-publication-authors'>", auteurs, "</div>\n", sep = "")
-    cat("<div class='cara-publication-journal'><em>", journal, "</em> ", pages, "</div>\n", sep = "")
-
-    if (doi != "" && doi != "NA") {
-      cat("<div class='cara-publication-metrics'>\n")
-      cat("<span class='__dimensions_badge_embed__' data-doi='", doi, "' data-style='small_rectangle'></span>\n", sep = "")
-      cat("</div>\n")
-    }
-
-    cat("</div>\n")
+    print_publication(
+      publis[i, ]
+    )
   }
 }
 ```
@@ -81,38 +666,30 @@ if (nrow(publis) > 0) {
 ::: {.cara-publications-section .cara-publications-old}
 
 <details>
+
 <summary>Publications plus anciennes</summary>
 
 ::: {.cara-publication-list}
 
 ```{r echo = FALSE, results = "asis", message = FALSE, warning = FALSE}
+
 publis_old <- Publis %>%
-  filter(Année < 2019, Etat != "Projet") %>%
-  arrange(desc(Année))
+  filter(
+    Année < 2019,
+    Etat != "Projet"
+  ) %>%
+  arrange(
+    desc(Année)
+  )
+
 
 if (nrow(publis_old) > 0) {
+
   for (i in seq_len(nrow(publis_old))) {
 
-    current <- publis_old[i, ]
-
-    lien <- ifelse(is.na(current$Lien), "", current$Lien)
-    auteurs <- ifelse(is.na(current$AllAuteurs), "", current$AllAuteurs)
-    journal <- ifelse(is.na(current$Journal2), "", current$Journal2)
-    pages <- ifelse(is.na(current$Pages), "", current$Pages)
-    doi <- ifelse(is.na(current$DOI), "", trimws(current$DOI))
-
-    cat("<div class='cara-publication-item'>\n")
-    cat("<div class='cara-publication-title'>", lien, "</div>\n", sep = "")
-    cat("<div class='cara-publication-authors'>", auteurs, "</div>\n", sep = "")
-    cat("<div class='cara-publication-journal'><em>", journal, "</em> ", pages, "</div>\n", sep = "")
-
-    if (doi != "" && doi != "NA") {
-      cat("<div class='cara-publication-metrics'>\n")
-      cat("<span class='__dimensions_badge_embed__' data-doi='", doi, "' data-style='small_rectangle'></span>\n", sep = "")
-      cat("</div>\n")
-    }
-
-    cat("</div>\n")
+    print_publication(
+      publis_old[i, ]
+    )
   }
 }
 ```
@@ -124,4 +701,3 @@ if (nrow(publis_old) > 0) {
 :::
 
 :::
-
