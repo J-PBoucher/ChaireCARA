@@ -1,30 +1,34 @@
 ---
-title: Roxane Turcotte, PhD.
+title: Gabriel Prudent
 subtitle: |
-  | Professeure
-  | Département de mathématiques
+  | Maitrise en mathématiques, 
   | UQAM
-image: ../../img/TurcotteR.jpg
+image: ../../img/GPrudent.png
 toc: TRUE
+description: ""
 ---
 
 ```{r echo = FALSE, results = "asis",  message=FALSE, warning=FALSE}
 
-name = "R.Turcotte"
+name = "G.Prudent"
 
 ```
+
+
 
 :::: {.columns}
 
 ::: {.column width="65%"}
 
-**Étudiant(e)s supervisé(e)s**:  
+**Direction de recherche**:  
 
-- [Gabriel Prudent](../Actuels1/GPrudent.html), maitrise en mathématiques, Université du Québec à Montréal
+- Roxane Turcotte, professeure au Département de mathématiques de l’Université du Québec à Montréal  
 
-**Ancien(nes) étudiant(e)s supervisé(e)s**:  
+**Mémoire de maitrise**:
 
-- [Aminata Coly](../Diplomes1/AminataColy.html) (2026), maitrise en mathématiques, Université du Québec à Montréal
+Prudent, Gabriel (2026), « à venir » Dir.: Roxane Turcotte, Mémoire. Montréal (Québec, Canada), Université du Québec à Montréal, Maîtrise en mathématiques.  
+
+
 
 :::
 
@@ -33,7 +37,7 @@ name = "R.Turcotte"
 :::
 
 ::: {.column width="30%"}
-![](../../img/TurcotteR.jpg)
+![](../../img/GPrudent.png)
 :::
 
 ::: {.column width="3%"}
@@ -41,8 +45,6 @@ name = "R.Turcotte"
 :::
 
 ::::
-
-
 
 
 <!-- XXXXXXXXXXXXXXXXXXX Code plus bas XXXXXXXXXXXXXXXXXXXXXXXXXXX -->
@@ -84,7 +86,7 @@ Autres <- Autres %>%
 
 ```{r echo = FALSE, results = "asis",  message=FALSE, warning=FALSE}
 
-if(nrow(Publis) >0) printPublis2(Publis)
+if(nrow(Publis) >0) printPublis(Publis)
 
 ```
 
@@ -93,4 +95,37 @@ if(nrow(Publis) >0) printPublis2(Publis)
 if(nrow(Presentations) >0) printPres(Presentations)
 
 ```
+
+```{r echo = FALSE, results = "asis",  message=FALSE, warning=FALSE}
+
+if(nrow(Cours)+nrow(Demo)+nrow(PresLocales)+nrow(Autres) > 0){
+  cat("## Implications 
+      ")
+}
+```
+
+```{r echo = FALSE, results = "asis",  message=FALSE, warning=FALSE}
+
+if(nrow(PresLocales) >0) printPresLocales(PresLocales)
+
+```
+
+```{r echo = FALSE, results = "asis",  message=FALSE, warning=FALSE}
+
+if(nrow(Cours) >0) printCours(Cours)
+
+```
+
+```{r echo = FALSE, results = "asis",  message=FALSE, warning=FALSE}
+
+if(nrow(Demo) >0) printDemo(Demo)
+
+```
+
+```{r echo = FALSE, results = "asis",  message=FALSE, warning=FALSE}
+
+if(nrow(Autres) >0) printAutres(Autres)
+
+```
+
 

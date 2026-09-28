@@ -28,7 +28,7 @@ name = "J.-P. Boucher"
 
 **Ancien(nes) étudiant(e)s supervisé(e)s**:  
 
-- [Raissa Coulibaly](../Actuels1/RaissaCoulibaly.html) (2026), doctorat en mathématiques, Université du Québec à Montréal
+- [Raissa Coulibaly](../Diplomes1/RaissaCoulibaly.html) (2026), doctorat en mathématiques, Université du Québec à Montréal
 - [Anne Paquet](../Diplomes1/AnnePaquet.html) (2025), maitrise en mathématiques, Université du Québec à Montréal  
 - [Borel Konche](../Diplomes1/BorelKonche.html) (2025), maitrise en mathématiques, Université du Québec à Montréal (avec Mathieu Pigeon)  
 - [Marco Lavoie](../Diplomes1/MarcoLavoie.html) (2024), maitrise en mathématiques, Université du Québec à Montréal  
