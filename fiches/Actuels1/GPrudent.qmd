@@ -3,7 +3,7 @@ title: Gabriel Prudent
 subtitle: |
   | Maitrise en mathématiques, 
   | UQAM
-image: ../../img/GPrudent.png
+image: ../../img/GPrudent.jpeg
 toc: TRUE
 description: ""
 ---
@@ -37,7 +37,7 @@ Prudent, Gabriel (2026), « à venir » Dir.: Roxane Turcotte, Mémoire. Montré
 :::
 
 ::: {.column width="30%"}
-![](../../img/GPrudent.png)
+![](../../img/GPrudent.jpeg)
 :::
 
 ::: {.column width="3%"}
